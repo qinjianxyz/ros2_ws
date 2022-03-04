@@ -1,0 +1,3 @@
+[console_scripts]
+webcam_node = ucsd_robocar_sensor2_pkg.webcam_node:main
+

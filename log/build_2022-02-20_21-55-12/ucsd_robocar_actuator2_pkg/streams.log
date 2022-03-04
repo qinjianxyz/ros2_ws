@@ -1,0 +1,27 @@
+[2.738s] Invoking command in '/home/projects/ros2_ws/src/ucsd_robocar_hub2/ucsd_robocar_actuator2_pkg': PYTHONPATH=/home/projects/ros2_ws/install/ucsd_robocar_actuator2_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/ucsd_robocar_actuator2_pkg build --build-base /home/projects/ros2_ws/build/ucsd_robocar_actuator2_pkg/build install --prefix /home/projects/ros2_ws/install/ucsd_robocar_actuator2_pkg --record /home/projects/ros2_ws/build/ucsd_robocar_actuator2_pkg/install.log --single-version-externally-managed
+[4.053s] running egg_info
+[4.058s] writing ../../../build/ucsd_robocar_actuator2_pkg/ucsd_robocar_actuator2_pkg.egg-info/PKG-INFO
+[4.059s] writing dependency_links to ../../../build/ucsd_robocar_actuator2_pkg/ucsd_robocar_actuator2_pkg.egg-info/dependency_links.txt
+[4.060s] writing entry points to ../../../build/ucsd_robocar_actuator2_pkg/ucsd_robocar_actuator2_pkg.egg-info/entry_points.txt
+[4.060s] writing requirements to ../../../build/ucsd_robocar_actuator2_pkg/ucsd_robocar_actuator2_pkg.egg-info/requires.txt
+[4.061s] writing top-level names to ../../../build/ucsd_robocar_actuator2_pkg/ucsd_robocar_actuator2_pkg.egg-info/top_level.txt
+[4.317s] package init file 'ucsd_robocar_actuator2_pkg/vesc_submodule/__init__.py' not found (or not a regular file)
+[4.320s] reading manifest file '../../../build/ucsd_robocar_actuator2_pkg/ucsd_robocar_actuator2_pkg.egg-info/SOURCES.txt'
+[4.330s] writing manifest file '../../../build/ucsd_robocar_actuator2_pkg/ucsd_robocar_actuator2_pkg.egg-info/SOURCES.txt'
+[4.330s] running build
+[4.331s] running build_py
+[4.335s] running install
+[4.340s] running install_lib
+[4.351s] running install_data
+[4.356s] running install_egg_info
+[4.365s] removing '/home/projects/ros2_ws/install/ucsd_robocar_actuator2_pkg/lib/python3.8/site-packages/ucsd_robocar_actuator2_pkg-0.0.0-py3.8.egg-info' (and everything under it)
+[4.367s] Copying ../../../build/ucsd_robocar_actuator2_pkg/ucsd_robocar_actuator2_pkg.egg-info to /home/projects/ros2_ws/install/ucsd_robocar_actuator2_pkg/lib/python3.8/site-packages/ucsd_robocar_actuator2_pkg-0.0.0-py3.8.egg-info
+[4.373s] running install_scripts
+[4.477s] Installing adafruit_steering_node script to /home/projects/ros2_ws/install/ucsd_robocar_actuator2_pkg/lib/ucsd_robocar_actuator2_pkg
+[4.481s] Installing adafruit_throttle_node script to /home/projects/ros2_ws/install/ucsd_robocar_actuator2_pkg/lib/ucsd_robocar_actuator2_pkg
+[4.481s] Installing adafruit_twist_node script to /home/projects/ros2_ws/install/ucsd_robocar_actuator2_pkg/lib/ucsd_robocar_actuator2_pkg
+[4.482s] Installing vesc_rpm_node script to /home/projects/ros2_ws/install/ucsd_robocar_actuator2_pkg/lib/ucsd_robocar_actuator2_pkg
+[4.483s] Installing vesc_steering_node script to /home/projects/ros2_ws/install/ucsd_robocar_actuator2_pkg/lib/ucsd_robocar_actuator2_pkg
+[4.484s] Installing vesc_twist_node script to /home/projects/ros2_ws/install/ucsd_robocar_actuator2_pkg/lib/ucsd_robocar_actuator2_pkg
+[4.484s] writing list of installed files to '/home/projects/ros2_ws/build/ucsd_robocar_actuator2_pkg/install.log'
+[4.611s] Invoked command in '/home/projects/ros2_ws/src/ucsd_robocar_hub2/ucsd_robocar_actuator2_pkg' returned '0': PYTHONPATH=/home/projects/ros2_ws/install/ucsd_robocar_actuator2_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/ucsd_robocar_actuator2_pkg build --build-base /home/projects/ros2_ws/build/ucsd_robocar_actuator2_pkg/build install --prefix /home/projects/ros2_ws/install/ucsd_robocar_actuator2_pkg --record /home/projects/ros2_ws/build/ucsd_robocar_actuator2_pkg/install.log --single-version-externally-managed

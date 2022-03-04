@@ -1,0 +1,345 @@
+[2.190s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[2.190s] DEBUG:colcon:Parsed command line arguments: Namespace(ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f931890a0>>, merge_install=False, metas=['./colcon.meta'], mixin=None, mixin_files=None, mixin_verb=('build',), packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=2, paths=None, symlink_install=False, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f931890a0>, verb_name='build', verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7f931896a0>)
+[2.236s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[2.241s] INFO:colcon.colcon_metadata.package_discovery.colcon_meta:Using configuration from '/root/.colcon/metadata/default/Gazebo.meta'
+[2.245s] INFO:colcon.colcon_metadata.package_discovery.colcon_meta:Using configuration from '/root/.colcon/metadata/default/fastrtps.meta'
+[2.246s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[2.246s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[2.246s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[2.246s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[2.247s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[2.247s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/projects/ros2_ws'
+[2.248s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[2.248s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[2.249s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[2.250s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[2.250s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[2.250s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[2.250s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[2.251s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[2.251s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[2.335s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[2.335s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[2.336s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[2.336s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[2.336s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[2.337s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[2.338s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[2.338s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[2.339s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[2.340s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[2.340s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[2.340s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[2.341s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[2.341s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[2.362s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[2.363s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[2.364s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[2.364s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[2.365s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[2.365s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[2.365s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[2.366s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[2.366s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[2.367s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[2.367s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[2.368s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[2.368s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[2.368s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[2.376s] Level 1:colcon.colcon_core.package_identification:_identify(src/ucsd_robocar_hub2) by extensions ['ignore', 'ignore_ament_install']
+[2.376s] Level 1:colcon.colcon_core.package_identification:_identify(src/ucsd_robocar_hub2) by extension 'ignore'
+[2.377s] Level 1:colcon.colcon_core.package_identification:_identify(src/ucsd_robocar_hub2) by extension 'ignore_ament_install'
+[2.377s] Level 1:colcon.colcon_core.package_identification:_identify(src/ucsd_robocar_hub2) by extensions ['colcon_pkg']
+[2.378s] Level 1:colcon.colcon_core.package_identification:_identify(src/ucsd_robocar_hub2) by extension 'colcon_pkg'
+[2.378s] Level 1:colcon.colcon_core.package_identification:_identify(src/ucsd_robocar_hub2) by extensions ['colcon_meta']
+[2.378s] Level 1:colcon.colcon_core.package_identification:_identify(src/ucsd_robocar_hub2) by extension 'colcon_meta'
+[2.379s] Level 1:colcon.colcon_core.package_identification:_identify(src/ucsd_robocar_hub2) by extensions ['ros']
+[2.379s] Level 1:colcon.colcon_core.package_identification:_identify(src/ucsd_robocar_hub2) by extension 'ros'
+[2.380s] Level 1:colcon.colcon_core.package_identification:_identify(src/ucsd_robocar_hub2) by extensions ['cmake', 'python']
+[2.380s] Level 1:colcon.colcon_core.package_identification:_identify(src/ucsd_robocar_hub2) by extension 'cmake'
+[2.380s] Level 1:colcon.colcon_core.package_identification:_identify(src/ucsd_robocar_hub2) by extension 'python'
+[2.381s] Level 1:colcon.colcon_core.package_identification:_identify(src/ucsd_robocar_hub2) by extensions ['python_setup_py']
+[2.381s] Level 1:colcon.colcon_core.package_identification:_identify(src/ucsd_robocar_hub2) by extension 'python_setup_py'
+[2.388s] Level 1:colcon.colcon_core.package_identification:_identify(src/ucsd_robocar_hub2/ucsd_robocar_actuator2_pkg) by extensions ['ignore', 'ignore_ament_install']
+[2.389s] Level 1:colcon.colcon_core.package_identification:_identify(src/ucsd_robocar_hub2/ucsd_robocar_actuator2_pkg) by extension 'ignore'
+[2.390s] Level 1:colcon.colcon_core.package_identification:_identify(src/ucsd_robocar_hub2/ucsd_robocar_actuator2_pkg) by extension 'ignore_ament_install'
+[2.390s] Level 1:colcon.colcon_core.package_identification:_identify(src/ucsd_robocar_hub2/ucsd_robocar_actuator2_pkg) by extensions ['colcon_pkg']
+[2.391s] Level 1:colcon.colcon_core.package_identification:_identify(src/ucsd_robocar_hub2/ucsd_robocar_actuator2_pkg) by extension 'colcon_pkg'
+[2.391s] Level 1:colcon.colcon_core.package_identification:_identify(src/ucsd_robocar_hub2/ucsd_robocar_actuator2_pkg) by extensions ['colcon_meta']
+[2.391s] Level 1:colcon.colcon_core.package_identification:_identify(src/ucsd_robocar_hub2/ucsd_robocar_actuator2_pkg) by extension 'colcon_meta'
+[2.392s] Level 1:colcon.colcon_core.package_identification:_identify(src/ucsd_robocar_hub2/ucsd_robocar_actuator2_pkg) by extensions ['ros']
+[2.392s] Level 1:colcon.colcon_core.package_identification:_identify(src/ucsd_robocar_hub2/ucsd_robocar_actuator2_pkg) by extension 'ros'
+[2.408s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ucsd_robocar_hub2/ucsd_robocar_actuator2_pkg' with type 'ros.ament_python' and name 'ucsd_robocar_actuator2_pkg'
+[2.414s] Level 1:colcon.colcon_core.package_identification:_identify(src/ucsd_robocar_hub2/ucsd_robocar_lane_detection2_pkg) by extensions ['ignore', 'ignore_ament_install']
+[2.414s] Level 1:colcon.colcon_core.package_identification:_identify(src/ucsd_robocar_hub2/ucsd_robocar_lane_detection2_pkg) by extension 'ignore'
+[2.415s] Level 1:colcon.colcon_core.package_identification:_identify(src/ucsd_robocar_hub2/ucsd_robocar_lane_detection2_pkg) by extension 'ignore_ament_install'
+[2.415s] Level 1:colcon.colcon_core.package_identification:_identify(src/ucsd_robocar_hub2/ucsd_robocar_lane_detection2_pkg) by extensions ['colcon_pkg']
+[2.416s] Level 1:colcon.colcon_core.package_identification:_identify(src/ucsd_robocar_hub2/ucsd_robocar_lane_detection2_pkg) by extension 'colcon_pkg'
+[2.416s] Level 1:colcon.colcon_core.package_identification:_identify(src/ucsd_robocar_hub2/ucsd_robocar_lane_detection2_pkg) by extensions ['colcon_meta']
+[2.416s] Level 1:colcon.colcon_core.package_identification:_identify(src/ucsd_robocar_hub2/ucsd_robocar_lane_detection2_pkg) by extension 'colcon_meta'
+[2.416s] Level 1:colcon.colcon_core.package_identification:_identify(src/ucsd_robocar_hub2/ucsd_robocar_lane_detection2_pkg) by extensions ['ros']
+[2.417s] Level 1:colcon.colcon_core.package_identification:_identify(src/ucsd_robocar_hub2/ucsd_robocar_lane_detection2_pkg) by extension 'ros'
+[2.422s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ucsd_robocar_hub2/ucsd_robocar_lane_detection2_pkg' with type 'ros.ament_python' and name 'ucsd_robocar_lane_detection2_pkg'
+[2.428s] Level 1:colcon.colcon_core.package_identification:_identify(src/ucsd_robocar_hub2/ucsd_robocar_nav2_pkg) by extensions ['ignore', 'ignore_ament_install']
+[2.428s] Level 1:colcon.colcon_core.package_identification:_identify(src/ucsd_robocar_hub2/ucsd_robocar_nav2_pkg) by extension 'ignore'
+[2.429s] Level 1:colcon.colcon_core.package_identification:_identify(src/ucsd_robocar_hub2/ucsd_robocar_nav2_pkg) by extension 'ignore_ament_install'
+[2.429s] Level 1:colcon.colcon_core.package_identification:_identify(src/ucsd_robocar_hub2/ucsd_robocar_nav2_pkg) by extensions ['colcon_pkg']
+[2.430s] Level 1:colcon.colcon_core.package_identification:_identify(src/ucsd_robocar_hub2/ucsd_robocar_nav2_pkg) by extension 'colcon_pkg'
+[2.430s] Level 1:colcon.colcon_core.package_identification:_identify(src/ucsd_robocar_hub2/ucsd_robocar_nav2_pkg) by extensions ['colcon_meta']
+[2.430s] Level 1:colcon.colcon_core.package_identification:_identify(src/ucsd_robocar_hub2/ucsd_robocar_nav2_pkg) by extension 'colcon_meta'
+[2.431s] Level 1:colcon.colcon_core.package_identification:_identify(src/ucsd_robocar_hub2/ucsd_robocar_nav2_pkg) by extensions ['ros']
+[2.431s] Level 1:colcon.colcon_core.package_identification:_identify(src/ucsd_robocar_hub2/ucsd_robocar_nav2_pkg) by extension 'ros'
+[2.435s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ucsd_robocar_hub2/ucsd_robocar_nav2_pkg' with type 'ros.ament_python' and name 'ucsd_robocar_nav2_pkg'
+[2.437s] Level 1:colcon.colcon_core.package_identification:_identify(src/ucsd_robocar_hub2/ucsd_robocar_path2_pkg) by extensions ['ignore', 'ignore_ament_install']
+[2.438s] Level 1:colcon.colcon_core.package_identification:_identify(src/ucsd_robocar_hub2/ucsd_robocar_path2_pkg) by extension 'ignore'
+[2.438s] Level 1:colcon.colcon_core.package_identification:_identify(src/ucsd_robocar_hub2/ucsd_robocar_path2_pkg) by extension 'ignore_ament_install'
+[2.439s] Level 1:colcon.colcon_core.package_identification:_identify(src/ucsd_robocar_hub2/ucsd_robocar_path2_pkg) by extensions ['colcon_pkg']
+[2.439s] Level 1:colcon.colcon_core.package_identification:_identify(src/ucsd_robocar_hub2/ucsd_robocar_path2_pkg) by extension 'colcon_pkg'
+[2.439s] Level 1:colcon.colcon_core.package_identification:_identify(src/ucsd_robocar_hub2/ucsd_robocar_path2_pkg) by extensions ['colcon_meta']
+[2.439s] Level 1:colcon.colcon_core.package_identification:_identify(src/ucsd_robocar_hub2/ucsd_robocar_path2_pkg) by extension 'colcon_meta'
+[2.440s] Level 1:colcon.colcon_core.package_identification:_identify(src/ucsd_robocar_hub2/ucsd_robocar_path2_pkg) by extensions ['ros']
+[2.440s] Level 1:colcon.colcon_core.package_identification:_identify(src/ucsd_robocar_hub2/ucsd_robocar_path2_pkg) by extension 'ros'
+[2.444s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ucsd_robocar_hub2/ucsd_robocar_path2_pkg' with type 'ros.ament_python' and name 'ucsd_robocar_path2_pkg'
+[2.449s] Level 1:colcon.colcon_core.package_identification:_identify(src/ucsd_robocar_hub2/ucsd_robocar_sensor2_pkg) by extensions ['ignore', 'ignore_ament_install']
+[2.449s] Level 1:colcon.colcon_core.package_identification:_identify(src/ucsd_robocar_hub2/ucsd_robocar_sensor2_pkg) by extension 'ignore'
+[2.450s] Level 1:colcon.colcon_core.package_identification:_identify(src/ucsd_robocar_hub2/ucsd_robocar_sensor2_pkg) by extension 'ignore_ament_install'
+[2.450s] Level 1:colcon.colcon_core.package_identification:_identify(src/ucsd_robocar_hub2/ucsd_robocar_sensor2_pkg) by extensions ['colcon_pkg']
+[2.450s] Level 1:colcon.colcon_core.package_identification:_identify(src/ucsd_robocar_hub2/ucsd_robocar_sensor2_pkg) by extension 'colcon_pkg'
+[2.451s] Level 1:colcon.colcon_core.package_identification:_identify(src/ucsd_robocar_hub2/ucsd_robocar_sensor2_pkg) by extensions ['colcon_meta']
+[2.451s] Level 1:colcon.colcon_core.package_identification:_identify(src/ucsd_robocar_hub2/ucsd_robocar_sensor2_pkg) by extension 'colcon_meta'
+[2.451s] Level 1:colcon.colcon_core.package_identification:_identify(src/ucsd_robocar_hub2/ucsd_robocar_sensor2_pkg) by extensions ['ros']
+[2.451s] Level 1:colcon.colcon_core.package_identification:_identify(src/ucsd_robocar_hub2/ucsd_robocar_sensor2_pkg) by extension 'ros'
+[2.456s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ucsd_robocar_hub2/ucsd_robocar_sensor2_pkg' with type 'ros.ament_python' and name 'ucsd_robocar_sensor2_pkg'
+[2.456s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[2.457s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[2.457s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[2.457s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[2.457s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[2.594s] Level 5:colcon.colcon_core.verb:set package 'ucsd_robocar_actuator2_pkg' build argument 'cmake_args' from command line to 'None'
+[2.595s] Level 5:colcon.colcon_core.verb:set package 'ucsd_robocar_actuator2_pkg' build argument 'cmake_target' from command line to 'None'
+[2.595s] Level 5:colcon.colcon_core.verb:set package 'ucsd_robocar_actuator2_pkg' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.595s] Level 5:colcon.colcon_core.verb:set package 'ucsd_robocar_actuator2_pkg' build argument 'cmake_clean_cache' from command line to 'False'
+[2.595s] Level 5:colcon.colcon_core.verb:set package 'ucsd_robocar_actuator2_pkg' build argument 'cmake_clean_first' from command line to 'False'
+[2.595s] Level 5:colcon.colcon_core.verb:set package 'ucsd_robocar_actuator2_pkg' build argument 'cmake_force_configure' from command line to 'False'
+[2.596s] Level 5:colcon.colcon_core.verb:set package 'ucsd_robocar_actuator2_pkg' build argument 'ament_cmake_args' from command line to 'None'
+[2.596s] Level 5:colcon.colcon_core.verb:set package 'ucsd_robocar_actuator2_pkg' build argument 'catkin_cmake_args' from command line to 'None'
+[2.596s] Level 5:colcon.colcon_core.verb:set package 'ucsd_robocar_actuator2_pkg' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.596s] DEBUG:colcon.colcon_core.verb:Building package 'ucsd_robocar_actuator2_pkg' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/projects/ros2_ws/build/ucsd_robocar_actuator2_pkg', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/projects/ros2_ws/install/ucsd_robocar_actuator2_pkg', 'merge_install': False, 'path': '/home/projects/ros2_ws/src/ucsd_robocar_hub2/ucsd_robocar_actuator2_pkg', 'symlink_install': False, 'test_result_base': None}
+[2.615s] Level 5:colcon.colcon_core.verb:set package 'ucsd_robocar_lane_detection2_pkg' build argument 'cmake_args' from command line to 'None'
+[2.615s] Level 5:colcon.colcon_core.verb:set package 'ucsd_robocar_lane_detection2_pkg' build argument 'cmake_target' from command line to 'None'
+[2.615s] Level 5:colcon.colcon_core.verb:set package 'ucsd_robocar_lane_detection2_pkg' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.615s] Level 5:colcon.colcon_core.verb:set package 'ucsd_robocar_lane_detection2_pkg' build argument 'cmake_clean_cache' from command line to 'False'
+[2.616s] Level 5:colcon.colcon_core.verb:set package 'ucsd_robocar_lane_detection2_pkg' build argument 'cmake_clean_first' from command line to 'False'
+[2.616s] Level 5:colcon.colcon_core.verb:set package 'ucsd_robocar_lane_detection2_pkg' build argument 'cmake_force_configure' from command line to 'False'
+[2.616s] Level 5:colcon.colcon_core.verb:set package 'ucsd_robocar_lane_detection2_pkg' build argument 'ament_cmake_args' from command line to 'None'
+[2.616s] Level 5:colcon.colcon_core.verb:set package 'ucsd_robocar_lane_detection2_pkg' build argument 'catkin_cmake_args' from command line to 'None'
+[2.616s] Level 5:colcon.colcon_core.verb:set package 'ucsd_robocar_lane_detection2_pkg' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.617s] DEBUG:colcon.colcon_core.verb:Building package 'ucsd_robocar_lane_detection2_pkg' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/projects/ros2_ws/build/ucsd_robocar_lane_detection2_pkg', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/projects/ros2_ws/install/ucsd_robocar_lane_detection2_pkg', 'merge_install': False, 'path': '/home/projects/ros2_ws/src/ucsd_robocar_hub2/ucsd_robocar_lane_detection2_pkg', 'symlink_install': False, 'test_result_base': None}
+[2.635s] Level 5:colcon.colcon_core.verb:set package 'ucsd_robocar_nav2_pkg' build argument 'cmake_args' from command line to 'None'
+[2.635s] Level 5:colcon.colcon_core.verb:set package 'ucsd_robocar_nav2_pkg' build argument 'cmake_target' from command line to 'None'
+[2.635s] Level 5:colcon.colcon_core.verb:set package 'ucsd_robocar_nav2_pkg' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.635s] Level 5:colcon.colcon_core.verb:set package 'ucsd_robocar_nav2_pkg' build argument 'cmake_clean_cache' from command line to 'False'
+[2.635s] Level 5:colcon.colcon_core.verb:set package 'ucsd_robocar_nav2_pkg' build argument 'cmake_clean_first' from command line to 'False'
+[2.636s] Level 5:colcon.colcon_core.verb:set package 'ucsd_robocar_nav2_pkg' build argument 'cmake_force_configure' from command line to 'False'
+[2.636s] Level 5:colcon.colcon_core.verb:set package 'ucsd_robocar_nav2_pkg' build argument 'ament_cmake_args' from command line to 'None'
+[2.636s] Level 5:colcon.colcon_core.verb:set package 'ucsd_robocar_nav2_pkg' build argument 'catkin_cmake_args' from command line to 'None'
+[2.636s] Level 5:colcon.colcon_core.verb:set package 'ucsd_robocar_nav2_pkg' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.636s] DEBUG:colcon.colcon_core.verb:Building package 'ucsd_robocar_nav2_pkg' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/projects/ros2_ws/build/ucsd_robocar_nav2_pkg', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/projects/ros2_ws/install/ucsd_robocar_nav2_pkg', 'merge_install': False, 'path': '/home/projects/ros2_ws/src/ucsd_robocar_hub2/ucsd_robocar_nav2_pkg', 'symlink_install': False, 'test_result_base': None}
+[2.655s] Level 5:colcon.colcon_core.verb:set package 'ucsd_robocar_path2_pkg' build argument 'cmake_args' from command line to 'None'
+[2.655s] Level 5:colcon.colcon_core.verb:set package 'ucsd_robocar_path2_pkg' build argument 'cmake_target' from command line to 'None'
+[2.655s] Level 5:colcon.colcon_core.verb:set package 'ucsd_robocar_path2_pkg' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.655s] Level 5:colcon.colcon_core.verb:set package 'ucsd_robocar_path2_pkg' build argument 'cmake_clean_cache' from command line to 'False'
+[2.655s] Level 5:colcon.colcon_core.verb:set package 'ucsd_robocar_path2_pkg' build argument 'cmake_clean_first' from command line to 'False'
+[2.656s] Level 5:colcon.colcon_core.verb:set package 'ucsd_robocar_path2_pkg' build argument 'cmake_force_configure' from command line to 'False'
+[2.656s] Level 5:colcon.colcon_core.verb:set package 'ucsd_robocar_path2_pkg' build argument 'ament_cmake_args' from command line to 'None'
+[2.656s] Level 5:colcon.colcon_core.verb:set package 'ucsd_robocar_path2_pkg' build argument 'catkin_cmake_args' from command line to 'None'
+[2.656s] Level 5:colcon.colcon_core.verb:set package 'ucsd_robocar_path2_pkg' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.656s] DEBUG:colcon.colcon_core.verb:Building package 'ucsd_robocar_path2_pkg' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/projects/ros2_ws/build/ucsd_robocar_path2_pkg', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/projects/ros2_ws/install/ucsd_robocar_path2_pkg', 'merge_install': False, 'path': '/home/projects/ros2_ws/src/ucsd_robocar_hub2/ucsd_robocar_path2_pkg', 'symlink_install': False, 'test_result_base': None}
+[2.675s] Level 5:colcon.colcon_core.verb:set package 'ucsd_robocar_sensor2_pkg' build argument 'cmake_args' from command line to 'None'
+[2.675s] Level 5:colcon.colcon_core.verb:set package 'ucsd_robocar_sensor2_pkg' build argument 'cmake_target' from command line to 'None'
+[2.675s] Level 5:colcon.colcon_core.verb:set package 'ucsd_robocar_sensor2_pkg' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.675s] Level 5:colcon.colcon_core.verb:set package 'ucsd_robocar_sensor2_pkg' build argument 'cmake_clean_cache' from command line to 'False'
+[2.675s] Level 5:colcon.colcon_core.verb:set package 'ucsd_robocar_sensor2_pkg' build argument 'cmake_clean_first' from command line to 'False'
+[2.676s] Level 5:colcon.colcon_core.verb:set package 'ucsd_robocar_sensor2_pkg' build argument 'cmake_force_configure' from command line to 'False'
+[2.676s] Level 5:colcon.colcon_core.verb:set package 'ucsd_robocar_sensor2_pkg' build argument 'ament_cmake_args' from command line to 'None'
+[2.676s] Level 5:colcon.colcon_core.verb:set package 'ucsd_robocar_sensor2_pkg' build argument 'catkin_cmake_args' from command line to 'None'
+[2.676s] Level 5:colcon.colcon_core.verb:set package 'ucsd_robocar_sensor2_pkg' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.677s] DEBUG:colcon.colcon_core.verb:Building package 'ucsd_robocar_sensor2_pkg' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/projects/ros2_ws/build/ucsd_robocar_sensor2_pkg', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/projects/ros2_ws/install/ucsd_robocar_sensor2_pkg', 'merge_install': False, 'path': '/home/projects/ros2_ws/src/ucsd_robocar_hub2/ucsd_robocar_sensor2_pkg', 'symlink_install': False, 'test_result_base': None}
+[2.678s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[2.689s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[2.691s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/projects/ros2_ws/src/ucsd_robocar_hub2/ucsd_robocar_actuator2_pkg' with build type 'ament_python'
+[2.692s] Level 1:colcon.colcon_core.shell:create_environment_hook('ucsd_robocar_actuator2_pkg', 'ament_prefix_path')
+[2.722s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[2.723s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/projects/ros2_ws/install/ucsd_robocar_actuator2_pkg/share/ucsd_robocar_actuator2_pkg/hook/ament_prefix_path.ps1'
+[2.727s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/projects/ros2_ws/install/ucsd_robocar_actuator2_pkg/share/ucsd_robocar_actuator2_pkg/hook/ament_prefix_path.dsv'
+[2.731s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/projects/ros2_ws/install/ucsd_robocar_actuator2_pkg/share/ucsd_robocar_actuator2_pkg/hook/ament_prefix_path.sh'
+[2.739s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.739s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.763s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/opt/ros/foxy'
+[2.778s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/projects/ros2_ws/src/ucsd_robocar_hub2/ucsd_robocar_lane_detection2_pkg' with build type 'ament_python'
+[2.780s] Level 1:colcon.colcon_core.shell:create_environment_hook('ucsd_robocar_lane_detection2_pkg', 'ament_prefix_path')
+[2.784s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/projects/ros2_ws/install/ucsd_robocar_lane_detection2_pkg/share/ucsd_robocar_lane_detection2_pkg/hook/ament_prefix_path.ps1'
+[2.789s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/projects/ros2_ws/install/ucsd_robocar_lane_detection2_pkg/share/ucsd_robocar_lane_detection2_pkg/hook/ament_prefix_path.dsv'
+[2.791s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/projects/ros2_ws/install/ucsd_robocar_lane_detection2_pkg/share/ucsd_robocar_lane_detection2_pkg/hook/ament_prefix_path.sh'
+[2.797s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.797s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.812s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/opt/ros/foxy'
+[4.121s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/projects/ros2_ws/src/ucsd_robocar_hub2/ucsd_robocar_actuator2_pkg'
+[4.125s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.126s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.142s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/opt/ros/foxy'
+[5.433s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/projects/ros2_ws/src/ucsd_robocar_hub2/ucsd_robocar_lane_detection2_pkg'
+[5.437s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[5.438s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[5.453s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/opt/ros/foxy'
+[5.478s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/projects/ros2_ws/src/ucsd_robocar_hub2/ucsd_robocar_actuator2_pkg': PYTHONPATH=/home/projects/ros2_ws/install/ucsd_robocar_actuator2_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/ucsd_robocar_actuator2_pkg build --build-base /home/projects/ros2_ws/build/ucsd_robocar_actuator2_pkg/build install --prefix /home/projects/ros2_ws/install/ucsd_robocar_actuator2_pkg --record /home/projects/ros2_ws/build/ucsd_robocar_actuator2_pkg/install.log --single-version-externally-managed
+[5.513s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/projects/ros2_ws/src/ucsd_robocar_hub2/ucsd_robocar_lane_detection2_pkg': PYTHONPATH=/home/projects/ros2_ws/install/ucsd_robocar_lane_detection2_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/ucsd_robocar_lane_detection2_pkg build --build-base /home/projects/ros2_ws/build/ucsd_robocar_lane_detection2_pkg/build install --prefix /home/projects/ros2_ws/install/ucsd_robocar_lane_detection2_pkg --record /home/projects/ros2_ws/build/ucsd_robocar_lane_detection2_pkg/install.log --single-version-externally-managed
+[7.464s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/projects/ros2_ws/src/ucsd_robocar_hub2/ucsd_robocar_lane_detection2_pkg' returned '0': PYTHONPATH=/home/projects/ros2_ws/install/ucsd_robocar_lane_detection2_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/ucsd_robocar_lane_detection2_pkg build --build-base /home/projects/ros2_ws/build/ucsd_robocar_lane_detection2_pkg/build install --prefix /home/projects/ros2_ws/install/ucsd_robocar_lane_detection2_pkg --record /home/projects/ros2_ws/build/ucsd_robocar_lane_detection2_pkg/install.log --single-version-externally-managed
+[7.493s] Level 1:colcon.colcon_core.environment:checking '/home/projects/ros2_ws/install/ucsd_robocar_lane_detection2_pkg' for CMake module files
+[7.499s] Level 1:colcon.colcon_core.environment:checking '/home/projects/ros2_ws/install/ucsd_robocar_lane_detection2_pkg' for CMake config files
+[7.508s] Level 1:colcon.colcon_core.environment:checking '/home/projects/ros2_ws/install/ucsd_robocar_lane_detection2_pkg/lib'
+[7.510s] Level 1:colcon.colcon_core.environment:checking '/home/projects/ros2_ws/install/ucsd_robocar_lane_detection2_pkg/bin'
+[7.510s] Level 1:colcon.colcon_core.environment:checking '/home/projects/ros2_ws/install/ucsd_robocar_lane_detection2_pkg/lib/pkgconfig/ucsd_robocar_lane_detection2_pkg.pc'
+[7.511s] Level 1:colcon.colcon_core.environment:checking '/home/projects/ros2_ws/install/ucsd_robocar_lane_detection2_pkg/lib/python3.8/site-packages'
+[7.511s] Level 1:colcon.colcon_core.shell:create_environment_hook('ucsd_robocar_lane_detection2_pkg', 'pythonpath')
+[7.515s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/projects/ros2_ws/install/ucsd_robocar_lane_detection2_pkg/share/ucsd_robocar_lane_detection2_pkg/hook/pythonpath.ps1'
+[7.517s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/projects/ros2_ws/install/ucsd_robocar_lane_detection2_pkg/share/ucsd_robocar_lane_detection2_pkg/hook/pythonpath.dsv'
+[7.519s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/projects/ros2_ws/install/ucsd_robocar_lane_detection2_pkg/share/ucsd_robocar_lane_detection2_pkg/hook/pythonpath.sh'
+[7.521s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ucsd_robocar_lane_detection2_pkg)
+[7.525s] INFO:colcon.colcon_core.shell:Creating package script '/home/projects/ros2_ws/install/ucsd_robocar_lane_detection2_pkg/share/ucsd_robocar_lane_detection2_pkg/package.ps1'
+[7.531s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/projects/ros2_ws/install/ucsd_robocar_lane_detection2_pkg/share/ucsd_robocar_lane_detection2_pkg/package.dsv'
+[7.536s] INFO:colcon.colcon_core.shell:Creating package script '/home/projects/ros2_ws/install/ucsd_robocar_lane_detection2_pkg/share/ucsd_robocar_lane_detection2_pkg/package.sh'
+[7.542s] INFO:colcon.colcon_core.shell:Creating package script '/home/projects/ros2_ws/install/ucsd_robocar_lane_detection2_pkg/share/ucsd_robocar_lane_detection2_pkg/package.bash'
+[7.548s] INFO:colcon.colcon_core.shell:Creating package script '/home/projects/ros2_ws/install/ucsd_robocar_lane_detection2_pkg/share/ucsd_robocar_lane_detection2_pkg/package.zsh'
+[7.555s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/projects/ros2_ws/install/ucsd_robocar_lane_detection2_pkg/share/colcon-core/packages/ucsd_robocar_lane_detection2_pkg)
+[7.559s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/projects/ros2_ws/src/ucsd_robocar_hub2/ucsd_robocar_nav2_pkg' with build type 'ament_python'
+[7.560s] Level 1:colcon.colcon_core.shell:create_environment_hook('ucsd_robocar_nav2_pkg', 'ament_prefix_path')
+[7.564s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/projects/ros2_ws/install/ucsd_robocar_nav2_pkg/share/ucsd_robocar_nav2_pkg/hook/ament_prefix_path.ps1'
+[7.569s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/projects/ros2_ws/install/ucsd_robocar_nav2_pkg/share/ucsd_robocar_nav2_pkg/hook/ament_prefix_path.dsv'
+[7.571s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/projects/ros2_ws/install/ucsd_robocar_nav2_pkg/share/ucsd_robocar_nav2_pkg/hook/ament_prefix_path.sh'
+[7.577s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[7.577s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[7.593s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/opt/ros/foxy'
+[7.612s] Level 1:colcon.colcon_core.environment:checking '/home/projects/ros2_ws/install/ucsd_robocar_actuator2_pkg' for CMake module files
+[7.616s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/projects/ros2_ws/src/ucsd_robocar_hub2/ucsd_robocar_actuator2_pkg' returned '0': PYTHONPATH=/home/projects/ros2_ws/install/ucsd_robocar_actuator2_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/ucsd_robocar_actuator2_pkg build --build-base /home/projects/ros2_ws/build/ucsd_robocar_actuator2_pkg/build install --prefix /home/projects/ros2_ws/install/ucsd_robocar_actuator2_pkg --record /home/projects/ros2_ws/build/ucsd_robocar_actuator2_pkg/install.log --single-version-externally-managed
+[7.621s] Level 1:colcon.colcon_core.environment:checking '/home/projects/ros2_ws/install/ucsd_robocar_actuator2_pkg' for CMake config files
+[7.629s] Level 1:colcon.colcon_core.environment:checking '/home/projects/ros2_ws/install/ucsd_robocar_actuator2_pkg/lib'
+[7.630s] Level 1:colcon.colcon_core.environment:checking '/home/projects/ros2_ws/install/ucsd_robocar_actuator2_pkg/bin'
+[7.630s] Level 1:colcon.colcon_core.environment:checking '/home/projects/ros2_ws/install/ucsd_robocar_actuator2_pkg/lib/pkgconfig/ucsd_robocar_actuator2_pkg.pc'
+[7.631s] Level 1:colcon.colcon_core.environment:checking '/home/projects/ros2_ws/install/ucsd_robocar_actuator2_pkg/lib/python3.8/site-packages'
+[7.631s] Level 1:colcon.colcon_core.shell:create_environment_hook('ucsd_robocar_actuator2_pkg', 'pythonpath')
+[7.635s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/projects/ros2_ws/install/ucsd_robocar_actuator2_pkg/share/ucsd_robocar_actuator2_pkg/hook/pythonpath.ps1'
+[7.637s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/projects/ros2_ws/install/ucsd_robocar_actuator2_pkg/share/ucsd_robocar_actuator2_pkg/hook/pythonpath.dsv'
+[7.639s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/projects/ros2_ws/install/ucsd_robocar_actuator2_pkg/share/ucsd_robocar_actuator2_pkg/hook/pythonpath.sh'
+[7.641s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ucsd_robocar_actuator2_pkg)
+[7.646s] INFO:colcon.colcon_core.shell:Creating package script '/home/projects/ros2_ws/install/ucsd_robocar_actuator2_pkg/share/ucsd_robocar_actuator2_pkg/package.ps1'
+[7.648s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/projects/ros2_ws/install/ucsd_robocar_actuator2_pkg/share/ucsd_robocar_actuator2_pkg/package.dsv'
+[7.651s] INFO:colcon.colcon_core.shell:Creating package script '/home/projects/ros2_ws/install/ucsd_robocar_actuator2_pkg/share/ucsd_robocar_actuator2_pkg/package.sh'
+[7.654s] INFO:colcon.colcon_core.shell:Creating package script '/home/projects/ros2_ws/install/ucsd_robocar_actuator2_pkg/share/ucsd_robocar_actuator2_pkg/package.bash'
+[7.656s] INFO:colcon.colcon_core.shell:Creating package script '/home/projects/ros2_ws/install/ucsd_robocar_actuator2_pkg/share/ucsd_robocar_actuator2_pkg/package.zsh'
+[7.657s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/projects/ros2_ws/install/ucsd_robocar_actuator2_pkg/share/colcon-core/packages/ucsd_robocar_actuator2_pkg)
+[7.662s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/projects/ros2_ws/src/ucsd_robocar_hub2/ucsd_robocar_path2_pkg' with build type 'ament_python'
+[7.663s] Level 1:colcon.colcon_core.shell:create_environment_hook('ucsd_robocar_path2_pkg', 'ament_prefix_path')
+[7.667s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/projects/ros2_ws/install/ucsd_robocar_path2_pkg/share/ucsd_robocar_path2_pkg/hook/ament_prefix_path.ps1'
+[7.672s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/projects/ros2_ws/install/ucsd_robocar_path2_pkg/share/ucsd_robocar_path2_pkg/hook/ament_prefix_path.dsv'
+[7.675s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/projects/ros2_ws/install/ucsd_robocar_path2_pkg/share/ucsd_robocar_path2_pkg/hook/ament_prefix_path.sh'
+[7.681s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[7.681s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[7.697s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/opt/ros/foxy'
+[8.997s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/projects/ros2_ws/src/ucsd_robocar_hub2/ucsd_robocar_nav2_pkg'
+[9.002s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[9.002s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[9.018s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/opt/ros/foxy'
+[10.323s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/projects/ros2_ws/src/ucsd_robocar_hub2/ucsd_robocar_path2_pkg'
+[10.327s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[10.327s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[10.343s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/opt/ros/foxy'
+[10.373s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/projects/ros2_ws/src/ucsd_robocar_hub2/ucsd_robocar_nav2_pkg': PYTHONPATH=/home/projects/ros2_ws/install/ucsd_robocar_nav2_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/ucsd_robocar_nav2_pkg build --build-base /home/projects/ros2_ws/build/ucsd_robocar_nav2_pkg/build install --prefix /home/projects/ros2_ws/install/ucsd_robocar_nav2_pkg --record /home/projects/ros2_ws/build/ucsd_robocar_nav2_pkg/install.log --single-version-externally-managed
+[10.387s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/projects/ros2_ws/src/ucsd_robocar_hub2/ucsd_robocar_path2_pkg': PYTHONPATH=/home/projects/ros2_ws/install/ucsd_robocar_path2_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/ucsd_robocar_path2_pkg build --build-base /home/projects/ros2_ws/build/ucsd_robocar_path2_pkg/build install --prefix /home/projects/ros2_ws/install/ucsd_robocar_path2_pkg --record /home/projects/ros2_ws/build/ucsd_robocar_path2_pkg/install.log --single-version-externally-managed
+[12.277s] Level 1:colcon.colcon_core.environment:checking '/home/projects/ros2_ws/install/ucsd_robocar_nav2_pkg' for CMake module files
+[12.279s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/projects/ros2_ws/src/ucsd_robocar_hub2/ucsd_robocar_nav2_pkg' returned '0': PYTHONPATH=/home/projects/ros2_ws/install/ucsd_robocar_nav2_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/ucsd_robocar_nav2_pkg build --build-base /home/projects/ros2_ws/build/ucsd_robocar_nav2_pkg/build install --prefix /home/projects/ros2_ws/install/ucsd_robocar_nav2_pkg --record /home/projects/ros2_ws/build/ucsd_robocar_nav2_pkg/install.log --single-version-externally-managed
+[12.283s] Level 1:colcon.colcon_core.environment:checking '/home/projects/ros2_ws/install/ucsd_robocar_nav2_pkg' for CMake config files
+[12.293s] Level 1:colcon.colcon_core.environment:checking '/home/projects/ros2_ws/install/ucsd_robocar_nav2_pkg/lib'
+[12.294s] Level 1:colcon.colcon_core.environment:checking '/home/projects/ros2_ws/install/ucsd_robocar_nav2_pkg/bin'
+[12.295s] Level 1:colcon.colcon_core.environment:checking '/home/projects/ros2_ws/install/ucsd_robocar_nav2_pkg/lib/pkgconfig/ucsd_robocar_nav2_pkg.pc'
+[12.295s] Level 1:colcon.colcon_core.environment:checking '/home/projects/ros2_ws/install/ucsd_robocar_nav2_pkg/lib/python3.8/site-packages'
+[12.295s] Level 1:colcon.colcon_core.shell:create_environment_hook('ucsd_robocar_nav2_pkg', 'pythonpath')
+[12.299s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/projects/ros2_ws/install/ucsd_robocar_nav2_pkg/share/ucsd_robocar_nav2_pkg/hook/pythonpath.ps1'
+[12.301s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/projects/ros2_ws/install/ucsd_robocar_nav2_pkg/share/ucsd_robocar_nav2_pkg/hook/pythonpath.dsv'
+[12.303s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/projects/ros2_ws/install/ucsd_robocar_nav2_pkg/share/ucsd_robocar_nav2_pkg/hook/pythonpath.sh'
+[12.305s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ucsd_robocar_nav2_pkg)
+[12.309s] INFO:colcon.colcon_core.shell:Creating package script '/home/projects/ros2_ws/install/ucsd_robocar_nav2_pkg/share/ucsd_robocar_nav2_pkg/package.ps1'
+[12.312s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/projects/ros2_ws/install/ucsd_robocar_nav2_pkg/share/ucsd_robocar_nav2_pkg/package.dsv'
+[12.314s] INFO:colcon.colcon_core.shell:Creating package script '/home/projects/ros2_ws/install/ucsd_robocar_nav2_pkg/share/ucsd_robocar_nav2_pkg/package.sh'
+[12.316s] INFO:colcon.colcon_core.shell:Creating package script '/home/projects/ros2_ws/install/ucsd_robocar_nav2_pkg/share/ucsd_robocar_nav2_pkg/package.bash'
+[12.318s] INFO:colcon.colcon_core.shell:Creating package script '/home/projects/ros2_ws/install/ucsd_robocar_nav2_pkg/share/ucsd_robocar_nav2_pkg/package.zsh'
+[12.320s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/projects/ros2_ws/install/ucsd_robocar_nav2_pkg/share/colcon-core/packages/ucsd_robocar_nav2_pkg)
+[12.323s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/projects/ros2_ws/src/ucsd_robocar_hub2/ucsd_robocar_sensor2_pkg' with build type 'ament_python'
+[12.326s] Level 1:colcon.colcon_core.shell:create_environment_hook('ucsd_robocar_sensor2_pkg', 'ament_prefix_path')
+[12.330s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/projects/ros2_ws/install/ucsd_robocar_sensor2_pkg/share/ucsd_robocar_sensor2_pkg/hook/ament_prefix_path.ps1'
+[12.333s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/projects/ros2_ws/install/ucsd_robocar_sensor2_pkg/share/ucsd_robocar_sensor2_pkg/hook/ament_prefix_path.dsv'
+[12.335s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/projects/ros2_ws/install/ucsd_robocar_sensor2_pkg/share/ucsd_robocar_sensor2_pkg/hook/ament_prefix_path.sh'
+[12.340s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[12.340s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[12.355s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/opt/ros/foxy'
+[12.378s] Level 1:colcon.colcon_core.environment:checking '/home/projects/ros2_ws/install/ucsd_robocar_path2_pkg' for CMake module files
+[12.381s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/projects/ros2_ws/src/ucsd_robocar_hub2/ucsd_robocar_path2_pkg' returned '0': PYTHONPATH=/home/projects/ros2_ws/install/ucsd_robocar_path2_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/ucsd_robocar_path2_pkg build --build-base /home/projects/ros2_ws/build/ucsd_robocar_path2_pkg/build install --prefix /home/projects/ros2_ws/install/ucsd_robocar_path2_pkg --record /home/projects/ros2_ws/build/ucsd_robocar_path2_pkg/install.log --single-version-externally-managed
+[12.385s] Level 1:colcon.colcon_core.environment:checking '/home/projects/ros2_ws/install/ucsd_robocar_path2_pkg' for CMake config files
+[12.392s] Level 1:colcon.colcon_core.environment:checking '/home/projects/ros2_ws/install/ucsd_robocar_path2_pkg/lib'
+[12.393s] Level 1:colcon.colcon_core.environment:checking '/home/projects/ros2_ws/install/ucsd_robocar_path2_pkg/bin'
+[12.393s] Level 1:colcon.colcon_core.environment:checking '/home/projects/ros2_ws/install/ucsd_robocar_path2_pkg/lib/pkgconfig/ucsd_robocar_path2_pkg.pc'
+[12.394s] Level 1:colcon.colcon_core.environment:checking '/home/projects/ros2_ws/install/ucsd_robocar_path2_pkg/lib/python3.8/site-packages'
+[12.394s] Level 1:colcon.colcon_core.shell:create_environment_hook('ucsd_robocar_path2_pkg', 'pythonpath')
+[12.398s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/projects/ros2_ws/install/ucsd_robocar_path2_pkg/share/ucsd_robocar_path2_pkg/hook/pythonpath.ps1'
+[12.400s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/projects/ros2_ws/install/ucsd_robocar_path2_pkg/share/ucsd_robocar_path2_pkg/hook/pythonpath.dsv'
+[12.402s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/projects/ros2_ws/install/ucsd_robocar_path2_pkg/share/ucsd_robocar_path2_pkg/hook/pythonpath.sh'
+[12.404s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ucsd_robocar_path2_pkg)
+[12.408s] INFO:colcon.colcon_core.shell:Creating package script '/home/projects/ros2_ws/install/ucsd_robocar_path2_pkg/share/ucsd_robocar_path2_pkg/package.ps1'
+[12.411s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/projects/ros2_ws/install/ucsd_robocar_path2_pkg/share/ucsd_robocar_path2_pkg/package.dsv'
+[12.413s] INFO:colcon.colcon_core.shell:Creating package script '/home/projects/ros2_ws/install/ucsd_robocar_path2_pkg/share/ucsd_robocar_path2_pkg/package.sh'
+[12.415s] INFO:colcon.colcon_core.shell:Creating package script '/home/projects/ros2_ws/install/ucsd_robocar_path2_pkg/share/ucsd_robocar_path2_pkg/package.bash'
+[12.417s] INFO:colcon.colcon_core.shell:Creating package script '/home/projects/ros2_ws/install/ucsd_robocar_path2_pkg/share/ucsd_robocar_path2_pkg/package.zsh'
+[12.419s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/projects/ros2_ws/install/ucsd_robocar_path2_pkg/share/colcon-core/packages/ucsd_robocar_path2_pkg)
+[13.711s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/projects/ros2_ws/src/ucsd_robocar_hub2/ucsd_robocar_sensor2_pkg'
+[13.715s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[13.716s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[13.731s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/opt/ros/foxy'
+[13.762s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/projects/ros2_ws/src/ucsd_robocar_hub2/ucsd_robocar_sensor2_pkg': PYTHONPATH=/home/projects/ros2_ws/install/ucsd_robocar_sensor2_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/ucsd_robocar_sensor2_pkg build --build-base /home/projects/ros2_ws/build/ucsd_robocar_sensor2_pkg/build install --prefix /home/projects/ros2_ws/install/ucsd_robocar_sensor2_pkg --record /home/projects/ros2_ws/build/ucsd_robocar_sensor2_pkg/install.log --single-version-externally-managed
+[15.506s] Level 1:colcon.colcon_core.environment:checking '/home/projects/ros2_ws/install/ucsd_robocar_sensor2_pkg' for CMake module files
+[15.508s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/projects/ros2_ws/src/ucsd_robocar_hub2/ucsd_robocar_sensor2_pkg' returned '0': PYTHONPATH=/home/projects/ros2_ws/install/ucsd_robocar_sensor2_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/ucsd_robocar_sensor2_pkg build --build-base /home/projects/ros2_ws/build/ucsd_robocar_sensor2_pkg/build install --prefix /home/projects/ros2_ws/install/ucsd_robocar_sensor2_pkg --record /home/projects/ros2_ws/build/ucsd_robocar_sensor2_pkg/install.log --single-version-externally-managed
+[15.514s] Level 1:colcon.colcon_core.environment:checking '/home/projects/ros2_ws/install/ucsd_robocar_sensor2_pkg' for CMake config files
+[15.520s] Level 1:colcon.colcon_core.environment:checking '/home/projects/ros2_ws/install/ucsd_robocar_sensor2_pkg/lib'
+[15.520s] Level 1:colcon.colcon_core.environment:checking '/home/projects/ros2_ws/install/ucsd_robocar_sensor2_pkg/bin'
+[15.521s] Level 1:colcon.colcon_core.environment:checking '/home/projects/ros2_ws/install/ucsd_robocar_sensor2_pkg/lib/pkgconfig/ucsd_robocar_sensor2_pkg.pc'
+[15.521s] Level 1:colcon.colcon_core.environment:checking '/home/projects/ros2_ws/install/ucsd_robocar_sensor2_pkg/lib/python3.8/site-packages'
+[15.522s] Level 1:colcon.colcon_core.shell:create_environment_hook('ucsd_robocar_sensor2_pkg', 'pythonpath')
+[15.525s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/projects/ros2_ws/install/ucsd_robocar_sensor2_pkg/share/ucsd_robocar_sensor2_pkg/hook/pythonpath.ps1'
+[15.527s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/projects/ros2_ws/install/ucsd_robocar_sensor2_pkg/share/ucsd_robocar_sensor2_pkg/hook/pythonpath.dsv'
+[15.529s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/projects/ros2_ws/install/ucsd_robocar_sensor2_pkg/share/ucsd_robocar_sensor2_pkg/hook/pythonpath.sh'
+[15.531s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ucsd_robocar_sensor2_pkg)
+[15.535s] INFO:colcon.colcon_core.shell:Creating package script '/home/projects/ros2_ws/install/ucsd_robocar_sensor2_pkg/share/ucsd_robocar_sensor2_pkg/package.ps1'
+[15.538s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/projects/ros2_ws/install/ucsd_robocar_sensor2_pkg/share/ucsd_robocar_sensor2_pkg/package.dsv'
+[15.540s] INFO:colcon.colcon_core.shell:Creating package script '/home/projects/ros2_ws/install/ucsd_robocar_sensor2_pkg/share/ucsd_robocar_sensor2_pkg/package.sh'
+[15.543s] INFO:colcon.colcon_core.shell:Creating package script '/home/projects/ros2_ws/install/ucsd_robocar_sensor2_pkg/share/ucsd_robocar_sensor2_pkg/package.bash'
+[15.544s] INFO:colcon.colcon_core.shell:Creating package script '/home/projects/ros2_ws/install/ucsd_robocar_sensor2_pkg/share/ucsd_robocar_sensor2_pkg/package.zsh'
+[15.546s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/projects/ros2_ws/install/ucsd_robocar_sensor2_pkg/share/colcon-core/packages/ucsd_robocar_sensor2_pkg)
+[15.548s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[15.549s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[15.550s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[15.551s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[15.631s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[15.631s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[15.632s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[15.632s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[15.647s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.Spawn.ExecFailed: /usr/bin/dbus-launch terminated abnormally without any error message
+[15.647s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[15.652s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/projects/ros2_ws/install/local_setup.ps1'
+[15.660s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/projects/ros2_ws/install/_local_setup_util_ps1.py'
+[15.668s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/projects/ros2_ws/install/setup.ps1'
+[15.685s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/projects/ros2_ws/install/local_setup.sh'
+[15.690s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/projects/ros2_ws/install/_local_setup_util_sh.py'
+[15.692s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/projects/ros2_ws/install/setup.sh'
+[15.710s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/projects/ros2_ws/install/local_setup.bash'
+[15.714s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/projects/ros2_ws/install/setup.bash'
+[15.730s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/projects/ros2_ws/install/local_setup.zsh'
+[15.735s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/projects/ros2_ws/install/setup.zsh'

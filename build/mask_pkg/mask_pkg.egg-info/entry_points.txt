@@ -1,0 +1,3 @@
+[console_scripts]
+mask_node = mask_pkg.mask_node:main
+

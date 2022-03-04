@@ -1,0 +1,243 @@
+[0.000000] (-) TimerEvent: {}
+[0.000989] (mask_pkg) JobQueued: {'identifier': 'mask_pkg', 'dependencies': OrderedDict()}
+[0.001338] (ucsd_robocar_actuator2_pkg) JobQueued: {'identifier': 'ucsd_robocar_actuator2_pkg', 'dependencies': OrderedDict()}
+[0.002266] (ucsd_robocar_lane_detection2_pkg) JobQueued: {'identifier': 'ucsd_robocar_lane_detection2_pkg', 'dependencies': OrderedDict()}
+[0.002846] (ucsd_robocar_nav2_pkg) JobQueued: {'identifier': 'ucsd_robocar_nav2_pkg', 'dependencies': OrderedDict()}
+[0.003905] (ucsd_robocar_path2_pkg) JobQueued: {'identifier': 'ucsd_robocar_path2_pkg', 'dependencies': OrderedDict()}
+[0.004092] (ucsd_robocar_sensor2_pkg) JobQueued: {'identifier': 'ucsd_robocar_sensor2_pkg', 'dependencies': OrderedDict()}
+[0.004197] (mask_pkg) JobStarted: {'identifier': 'mask_pkg'}
+[0.050740] (ucsd_robocar_actuator2_pkg) JobStarted: {'identifier': 'ucsd_robocar_actuator2_pkg'}
+[0.080355] (ucsd_robocar_lane_detection2_pkg) JobStarted: {'identifier': 'ucsd_robocar_lane_detection2_pkg'}
+[0.098987] (-) TimerEvent: {}
+[0.111348] (ucsd_robocar_nav2_pkg) JobStarted: {'identifier': 'ucsd_robocar_nav2_pkg'}
+[0.199277] (-) TimerEvent: {}
+[0.300243] (-) TimerEvent: {}
+[0.400975] (-) TimerEvent: {}
+[0.501674] (-) TimerEvent: {}
+[0.602346] (-) TimerEvent: {}
+[0.703005] (-) TimerEvent: {}
+[0.803681] (-) TimerEvent: {}
+[0.904337] (-) TimerEvent: {}
+[1.005010] (-) TimerEvent: {}
+[1.105828] (-) TimerEvent: {}
+[1.206769] (-) TimerEvent: {}
+[1.307560] (-) TimerEvent: {}
+[1.408250] (-) TimerEvent: {}
+[1.508910] (-) TimerEvent: {}
+[1.609545] (-) TimerEvent: {}
+[1.710177] (-) TimerEvent: {}
+[1.810844] (-) TimerEvent: {}
+[1.913291] (-) TimerEvent: {}
+[2.014548] (-) TimerEvent: {}
+[2.115226] (-) TimerEvent: {}
+[2.215938] (-) TimerEvent: {}
+[2.316588] (-) TimerEvent: {}
+[2.417253] (-) TimerEvent: {}
+[2.517920] (-) TimerEvent: {}
+[2.618593] (-) TimerEvent: {}
+[2.719314] (-) TimerEvent: {}
+[2.820204] (-) TimerEvent: {}
+[2.921158] (-) TimerEvent: {}
+[3.021828] (-) TimerEvent: {}
+[3.122499] (-) TimerEvent: {}
+[3.223192] (-) TimerEvent: {}
+[3.323959] (-) TimerEvent: {}
+[3.424649] (-) TimerEvent: {}
+[3.525332] (-) TimerEvent: {}
+[3.626038] (-) TimerEvent: {}
+[3.686380] (mask_pkg) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../../build/mask_pkg', 'build', '--build-base', '/home/projects/ros2_ws/build/mask_pkg/build', 'install', '--prefix', '/home/projects/ros2_ws/install/mask_pkg', '--record', '/home/projects/ros2_ws/build/mask_pkg/install.log', '--single-version-externally-managed'], 'cwd': '/home/projects/ros2_ws/src/ucsd_robocar_hub2/mask_pkg', 'env': {'HOSTNAME': 'ucsdrobocar-148-07', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib', 'HOME': '/root', 'OLDPWD': '/home/projects/ros2_ws', 'ROS_PYTHON_VERSION': '3', 'COLCON_PREFIX_PATH': '/home/projects/ros2_ws/install:/home/projects/sensor2_ws/src/lidars/ld06/ros2/install', 'ROS_DISTRO': 'foxy', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'DISPLAY': 'localhost:10.0', 'LANG': 'C.UTF-8', 'ROS1_DISTRO': 'noetic', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'ROS2_DISTRO': 'foxy', 'AMENT_PREFIX_PATH': '/home/projects/ros2_ws/install/mask_pkg:/home/projects/ros2_ws/install/ucsd_robocar_sensor2_pkg:/home/projects/ros2_ws/install/ucsd_robocar_path2_pkg:/home/projects/ros2_ws/install/ucsd_robocar_nav2_pkg:/home/projects/ros2_ws/install/ucsd_robocar_lane_detection2_pkg:/home/projects/ros2_ws/install/ucsd_robocar_actuator2_pkg:/home/projects/sensor2_ws/src/lidars/ld06/ros2/install/ldlidar:/opt/ros/foxy', 'PWD': '/home/projects/ros2_ws/build/mask_pkg', 'LC_ALL': 'C.UTF-8', 'PYTHONPATH': '/home/projects/ros2_ws/install/mask_pkg/lib/python3.8/site-packages:/home/projects/ros2_ws/install/mask_pkg/lib/python3.8/site-packages:/home/projects/ros2_ws/install/ucsd_robocar_sensor2_pkg/lib/python3.8/site-packages:/home/projects/ros2_ws/install/ucsd_robocar_path2_pkg/lib/python3.8/site-packages:/home/projects/ros2_ws/install/ucsd_robocar_nav2_pkg/lib/python3.8/site-packages:/home/projects/ros2_ws/install/ucsd_robocar_lane_detection2_pkg/lib/python3.8/site-packages:/home/projects/ros2_ws/install/ucsd_robocar_actuator2_pkg/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/projects/sensor2_ws/src/lidars/ld06/ros2/install/ldlidar'}, 'shell': False}
+[3.702444] (ucsd_robocar_actuator2_pkg) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../../build/ucsd_robocar_actuator2_pkg', 'build', '--build-base', '/home/projects/ros2_ws/build/ucsd_robocar_actuator2_pkg/build', 'install', '--prefix', '/home/projects/ros2_ws/install/ucsd_robocar_actuator2_pkg', '--record', '/home/projects/ros2_ws/build/ucsd_robocar_actuator2_pkg/install.log', '--single-version-externally-managed'], 'cwd': '/home/projects/ros2_ws/src/ucsd_robocar_hub2/ucsd_robocar_actuator2_pkg', 'env': {'HOSTNAME': 'ucsdrobocar-148-07', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib', 'HOME': '/root', 'OLDPWD': '/home/projects/ros2_ws', 'ROS_PYTHON_VERSION': '3', 'COLCON_PREFIX_PATH': '/home/projects/ros2_ws/install:/home/projects/sensor2_ws/src/lidars/ld06/ros2/install', 'ROS_DISTRO': 'foxy', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'DISPLAY': 'localhost:10.0', 'LANG': 'C.UTF-8', 'ROS1_DISTRO': 'noetic', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'ROS2_DISTRO': 'foxy', 'AMENT_PREFIX_PATH': '/home/projects/ros2_ws/install/mask_pkg:/home/projects/ros2_ws/install/ucsd_robocar_sensor2_pkg:/home/projects/ros2_ws/install/ucsd_robocar_path2_pkg:/home/projects/ros2_ws/install/ucsd_robocar_nav2_pkg:/home/projects/ros2_ws/install/ucsd_robocar_lane_detection2_pkg:/home/projects/ros2_ws/install/ucsd_robocar_actuator2_pkg:/home/projects/sensor2_ws/src/lidars/ld06/ros2/install/ldlidar:/opt/ros/foxy', 'PWD': '/home/projects/ros2_ws/build/ucsd_robocar_actuator2_pkg', 'LC_ALL': 'C.UTF-8', 'PYTHONPATH': '/home/projects/ros2_ws/install/ucsd_robocar_actuator2_pkg/lib/python3.8/site-packages:/home/projects/ros2_ws/install/mask_pkg/lib/python3.8/site-packages:/home/projects/ros2_ws/install/ucsd_robocar_sensor2_pkg/lib/python3.8/site-packages:/home/projects/ros2_ws/install/ucsd_robocar_path2_pkg/lib/python3.8/site-packages:/home/projects/ros2_ws/install/ucsd_robocar_nav2_pkg/lib/python3.8/site-packages:/home/projects/ros2_ws/install/ucsd_robocar_lane_detection2_pkg/lib/python3.8/site-packages:/home/projects/ros2_ws/install/ucsd_robocar_actuator2_pkg/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/projects/sensor2_ws/src/lidars/ld06/ros2/install/ldlidar'}, 'shell': False}
+[3.714113] (ucsd_robocar_lane_detection2_pkg) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../../build/ucsd_robocar_lane_detection2_pkg', 'build', '--build-base', '/home/projects/ros2_ws/build/ucsd_robocar_lane_detection2_pkg/build', 'install', '--prefix', '/home/projects/ros2_ws/install/ucsd_robocar_lane_detection2_pkg', '--record', '/home/projects/ros2_ws/build/ucsd_robocar_lane_detection2_pkg/install.log', '--single-version-externally-managed'], 'cwd': '/home/projects/ros2_ws/src/ucsd_robocar_hub2/ucsd_robocar_lane_detection2_pkg', 'env': {'HOSTNAME': 'ucsdrobocar-148-07', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib', 'HOME': '/root', 'OLDPWD': '/home/projects/ros2_ws', 'ROS_PYTHON_VERSION': '3', 'COLCON_PREFIX_PATH': '/home/projects/ros2_ws/install:/home/projects/sensor2_ws/src/lidars/ld06/ros2/install', 'ROS_DISTRO': 'foxy', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'DISPLAY': 'localhost:10.0', 'LANG': 'C.UTF-8', 'ROS1_DISTRO': 'noetic', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'ROS2_DISTRO': 'foxy', 'AMENT_PREFIX_PATH': '/home/projects/ros2_ws/install/mask_pkg:/home/projects/ros2_ws/install/ucsd_robocar_sensor2_pkg:/home/projects/ros2_ws/install/ucsd_robocar_path2_pkg:/home/projects/ros2_ws/install/ucsd_robocar_nav2_pkg:/home/projects/ros2_ws/install/ucsd_robocar_lane_detection2_pkg:/home/projects/ros2_ws/install/ucsd_robocar_actuator2_pkg:/home/projects/sensor2_ws/src/lidars/ld06/ros2/install/ldlidar:/opt/ros/foxy', 'PWD': '/home/projects/ros2_ws/build/ucsd_robocar_lane_detection2_pkg', 'LC_ALL': 'C.UTF-8', 'PYTHONPATH': '/home/projects/ros2_ws/install/ucsd_robocar_lane_detection2_pkg/lib/python3.8/site-packages:/home/projects/ros2_ws/install/mask_pkg/lib/python3.8/site-packages:/home/projects/ros2_ws/install/ucsd_robocar_sensor2_pkg/lib/python3.8/site-packages:/home/projects/ros2_ws/install/ucsd_robocar_path2_pkg/lib/python3.8/site-packages:/home/projects/ros2_ws/install/ucsd_robocar_nav2_pkg/lib/python3.8/site-packages:/home/projects/ros2_ws/install/ucsd_robocar_lane_detection2_pkg/lib/python3.8/site-packages:/home/projects/ros2_ws/install/ucsd_robocar_actuator2_pkg/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/projects/sensor2_ws/src/lidars/ld06/ros2/install/ldlidar'}, 'shell': False}
+[3.725922] (ucsd_robocar_nav2_pkg) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../../build/ucsd_robocar_nav2_pkg', 'build', '--build-base', '/home/projects/ros2_ws/build/ucsd_robocar_nav2_pkg/build', 'install', '--prefix', '/home/projects/ros2_ws/install/ucsd_robocar_nav2_pkg', '--record', '/home/projects/ros2_ws/build/ucsd_robocar_nav2_pkg/install.log', '--single-version-externally-managed'], 'cwd': '/home/projects/ros2_ws/src/ucsd_robocar_hub2/ucsd_robocar_nav2_pkg', 'env': {'HOSTNAME': 'ucsdrobocar-148-07', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib', 'HOME': '/root', 'OLDPWD': '/home/projects/ros2_ws', 'ROS_PYTHON_VERSION': '3', 'COLCON_PREFIX_PATH': '/home/projects/ros2_ws/install:/home/projects/sensor2_ws/src/lidars/ld06/ros2/install', 'ROS_DISTRO': 'foxy', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'DISPLAY': 'localhost:10.0', 'LANG': 'C.UTF-8', 'ROS1_DISTRO': 'noetic', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'ROS2_DISTRO': 'foxy', 'AMENT_PREFIX_PATH': '/home/projects/ros2_ws/install/mask_pkg:/home/projects/ros2_ws/install/ucsd_robocar_sensor2_pkg:/home/projects/ros2_ws/install/ucsd_robocar_path2_pkg:/home/projects/ros2_ws/install/ucsd_robocar_nav2_pkg:/home/projects/ros2_ws/install/ucsd_robocar_lane_detection2_pkg:/home/projects/ros2_ws/install/ucsd_robocar_actuator2_pkg:/home/projects/sensor2_ws/src/lidars/ld06/ros2/install/ldlidar:/opt/ros/foxy', 'PWD': '/home/projects/ros2_ws/build/ucsd_robocar_nav2_pkg', 'LC_ALL': 'C.UTF-8', 'PYTHONPATH': '/home/projects/ros2_ws/install/ucsd_robocar_nav2_pkg/lib/python3.8/site-packages:/home/projects/ros2_ws/install/mask_pkg/lib/python3.8/site-packages:/home/projects/ros2_ws/install/ucsd_robocar_sensor2_pkg/lib/python3.8/site-packages:/home/projects/ros2_ws/install/ucsd_robocar_path2_pkg/lib/python3.8/site-packages:/home/projects/ros2_ws/install/ucsd_robocar_nav2_pkg/lib/python3.8/site-packages:/home/projects/ros2_ws/install/ucsd_robocar_lane_detection2_pkg/lib/python3.8/site-packages:/home/projects/ros2_ws/install/ucsd_robocar_actuator2_pkg/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/projects/sensor2_ws/src/lidars/ld06/ros2/install/ldlidar'}, 'shell': False}
+[3.733916] (-) TimerEvent: {}
+[3.836369] (-) TimerEvent: {}
+[3.938396] (-) TimerEvent: {}
+[4.040522] (-) TimerEvent: {}
+[4.142744] (-) TimerEvent: {}
+[4.244865] (-) TimerEvent: {}
+[4.346882] (-) TimerEvent: {}
+[4.448902] (-) TimerEvent: {}
+[4.550919] (-) TimerEvent: {}
+[4.647661] (mask_pkg) StdoutLine: {'line': b'running egg_info\n'}
+[4.650451] (mask_pkg) StdoutLine: {'line': b'writing ../../../build/mask_pkg/mask_pkg.egg-info/PKG-INFO\n'}
+[4.650993] (-) TimerEvent: {}
+[4.652690] (ucsd_robocar_actuator2_pkg) StdoutLine: {'line': b'running egg_info\n'}
+[4.654794] (mask_pkg) StdoutLine: {'line': b'writing dependency_links to ../../../build/mask_pkg/mask_pkg.egg-info/dependency_links.txt\n'}
+[4.655562] (ucsd_robocar_actuator2_pkg) StdoutLine: {'line': b'writing ../../../build/ucsd_robocar_actuator2_pkg/ucsd_robocar_actuator2_pkg.egg-info/PKG-INFO\n'}
+[4.656235] (ucsd_robocar_actuator2_pkg) StdoutLine: {'line': b'writing dependency_links to ../../../build/ucsd_robocar_actuator2_pkg/ucsd_robocar_actuator2_pkg.egg-info/dependency_links.txt\n'}
+[4.656844] (ucsd_robocar_actuator2_pkg) StdoutLine: {'line': b'writing entry points to ../../../build/ucsd_robocar_actuator2_pkg/ucsd_robocar_actuator2_pkg.egg-info/entry_points.txt\n'}
+[4.657644] (mask_pkg) StdoutLine: {'line': b'writing entry points to ../../../build/mask_pkg/mask_pkg.egg-info/entry_points.txt\n'}
+[4.658381] (ucsd_robocar_actuator2_pkg) StdoutLine: {'line': b'writing requirements to ../../../build/ucsd_robocar_actuator2_pkg/ucsd_robocar_actuator2_pkg.egg-info/requires.txt\n'}
+[4.659006] (mask_pkg) StdoutLine: {'line': b'writing requirements to ../../../build/mask_pkg/mask_pkg.egg-info/requires.txt\n'}
+[4.659743] (mask_pkg) StdoutLine: {'line': b'writing top-level names to ../../../build/mask_pkg/mask_pkg.egg-info/top_level.txt\n'}
+[4.660395] (ucsd_robocar_actuator2_pkg) StdoutLine: {'line': b'writing top-level names to ../../../build/ucsd_robocar_actuator2_pkg/ucsd_robocar_actuator2_pkg.egg-info/top_level.txt\n'}
+[4.671399] (ucsd_robocar_lane_detection2_pkg) StdoutLine: {'line': b'running egg_info\n'}
+[4.674703] (ucsd_robocar_lane_detection2_pkg) StdoutLine: {'line': b'writing ../../../build/ucsd_robocar_lane_detection2_pkg/ucsd_robocar_lane_detection2_pkg.egg-info/PKG-INFO\n'}
+[4.676579] (ucsd_robocar_lane_detection2_pkg) StdoutLine: {'line': b'writing dependency_links to ../../../build/ucsd_robocar_lane_detection2_pkg/ucsd_robocar_lane_detection2_pkg.egg-info/dependency_links.txt\n'}
+[4.678372] (ucsd_robocar_lane_detection2_pkg) StdoutLine: {'line': b'writing entry points to ../../../build/ucsd_robocar_lane_detection2_pkg/ucsd_robocar_lane_detection2_pkg.egg-info/entry_points.txt\n'}
+[4.680123] (ucsd_robocar_lane_detection2_pkg) StdoutLine: {'line': b'writing requirements to ../../../build/ucsd_robocar_lane_detection2_pkg/ucsd_robocar_lane_detection2_pkg.egg-info/requires.txt\n'}
+[4.681662] (ucsd_robocar_lane_detection2_pkg) StdoutLine: {'line': b'writing top-level names to ../../../build/ucsd_robocar_lane_detection2_pkg/ucsd_robocar_lane_detection2_pkg.egg-info/top_level.txt\n'}
+[4.718160] (ucsd_robocar_nav2_pkg) StdoutLine: {'line': b'running egg_info\n'}
+[4.721241] (ucsd_robocar_nav2_pkg) StdoutLine: {'line': b'writing ../../../build/ucsd_robocar_nav2_pkg/ucsd_robocar_nav2_pkg.egg-info/PKG-INFO\n'}
+[4.723093] (ucsd_robocar_nav2_pkg) StdoutLine: {'line': b'writing dependency_links to ../../../build/ucsd_robocar_nav2_pkg/ucsd_robocar_nav2_pkg.egg-info/dependency_links.txt\n'}
+[4.724639] (ucsd_robocar_nav2_pkg) StdoutLine: {'line': b'writing entry points to ../../../build/ucsd_robocar_nav2_pkg/ucsd_robocar_nav2_pkg.egg-info/entry_points.txt\n'}
+[4.726175] (ucsd_robocar_nav2_pkg) StdoutLine: {'line': b'writing requirements to ../../../build/ucsd_robocar_nav2_pkg/ucsd_robocar_nav2_pkg.egg-info/requires.txt\n'}
+[4.727515] (ucsd_robocar_nav2_pkg) StdoutLine: {'line': b'writing top-level names to ../../../build/ucsd_robocar_nav2_pkg/ucsd_robocar_nav2_pkg.egg-info/top_level.txt\n'}
+[4.751185] (-) TimerEvent: {}
+[4.836917] (ucsd_robocar_actuator2_pkg) StderrLine: {'line': b"package init file 'ucsd_robocar_actuator2_pkg/vesc_submodule/__init__.py' not found (or not a regular file)\n"}
+[4.837975] (mask_pkg) StdoutLine: {'line': b"reading manifest file '../../../build/mask_pkg/mask_pkg.egg-info/SOURCES.txt'\n"}
+[4.839061] (ucsd_robocar_actuator2_pkg) StdoutLine: {'line': b"reading manifest file '../../../build/ucsd_robocar_actuator2_pkg/ucsd_robocar_actuator2_pkg.egg-info/SOURCES.txt'\n"}
+[4.842938] (mask_pkg) StdoutLine: {'line': b"writing manifest file '../../../build/mask_pkg/mask_pkg.egg-info/SOURCES.txt'\n"}
+[4.844411] (mask_pkg) StdoutLine: {'line': b'running build\n'}
+[4.845236] (mask_pkg) StdoutLine: {'line': b'running build_py\n'}
+[4.845842] (ucsd_robocar_actuator2_pkg) StdoutLine: {'line': b"writing manifest file '../../../build/ucsd_robocar_actuator2_pkg/ucsd_robocar_actuator2_pkg.egg-info/SOURCES.txt'\n"}
+[4.846784] (mask_pkg) StdoutLine: {'line': b'copying mask_pkg/mask_node.py -> /home/projects/ros2_ws/build/mask_pkg/build/lib/mask_pkg\n'}
+[4.847401] (ucsd_robocar_actuator2_pkg) StdoutLine: {'line': b'running build\n'}
+[4.847867] (ucsd_robocar_actuator2_pkg) StdoutLine: {'line': b'running build_py\n'}
+[4.848410] (mask_pkg) StdoutLine: {'line': b'running install\n'}
+[4.851343] (-) TimerEvent: {}
+[4.852126] (ucsd_robocar_actuator2_pkg) StdoutLine: {'line': b'running install\n'}
+[4.853157] (mask_pkg) StdoutLine: {'line': b'running install_lib\n'}
+[4.856082] (ucsd_robocar_actuator2_pkg) StdoutLine: {'line': b'running install_lib\n'}
+[4.857441] (mask_pkg) StdoutLine: {'line': b'copying /home/projects/ros2_ws/build/mask_pkg/build/lib/mask_pkg/mask_node.py -> /home/projects/ros2_ws/install/mask_pkg/lib/python3.8/site-packages/mask_pkg\n'}
+[4.860400] (mask_pkg) StdoutLine: {'line': b'byte-compiling /home/projects/ros2_ws/install/mask_pkg/lib/python3.8/site-packages/mask_pkg/mask_node.py to mask_node.cpython-38.pyc\n'}
+[4.864968] (ucsd_robocar_actuator2_pkg) StdoutLine: {'line': b'running install_data\n'}
+[4.867690] (mask_pkg) StdoutLine: {'line': b'running install_data\n'}
+[4.868878] (ucsd_robocar_actuator2_pkg) StdoutLine: {'line': b'running install_egg_info\n'}
+[4.870673] (mask_pkg) StdoutLine: {'line': b'running install_egg_info\n'}
+[4.872807] (ucsd_robocar_lane_detection2_pkg) StdoutLine: {'line': b"reading manifest file '../../../build/ucsd_robocar_lane_detection2_pkg/ucsd_robocar_lane_detection2_pkg.egg-info/SOURCES.txt'\n"}
+[4.876216] (ucsd_robocar_actuator2_pkg) StdoutLine: {'line': b"removing '/home/projects/ros2_ws/install/ucsd_robocar_actuator2_pkg/lib/python3.8/site-packages/ucsd_robocar_actuator2_pkg-0.0.0-py3.8.egg-info' (and everything under it)\n"}
+[4.877740] (ucsd_robocar_actuator2_pkg) StdoutLine: {'line': b'Copying ../../../build/ucsd_robocar_actuator2_pkg/ucsd_robocar_actuator2_pkg.egg-info to /home/projects/ros2_ws/install/ucsd_robocar_actuator2_pkg/lib/python3.8/site-packages/ucsd_robocar_actuator2_pkg-0.0.0-py3.8.egg-info\n'}
+[4.878430] (mask_pkg) StdoutLine: {'line': b"removing '/home/projects/ros2_ws/install/mask_pkg/lib/python3.8/site-packages/mask_pkg-0.0.0-py3.8.egg-info' (and everything under it)\n"}
+[4.879743] (mask_pkg) StdoutLine: {'line': b'Copying ../../../build/mask_pkg/mask_pkg.egg-info to /home/projects/ros2_ws/install/mask_pkg/lib/python3.8/site-packages/mask_pkg-0.0.0-py3.8.egg-info\n'}
+[4.881298] (ucsd_robocar_lane_detection2_pkg) StdoutLine: {'line': b"writing manifest file '../../../build/ucsd_robocar_lane_detection2_pkg/ucsd_robocar_lane_detection2_pkg.egg-info/SOURCES.txt'\n"}
+[4.882218] (ucsd_robocar_actuator2_pkg) StdoutLine: {'line': b'running install_scripts\n'}
+[4.882815] (ucsd_robocar_lane_detection2_pkg) StdoutLine: {'line': b'running build\n'}
+[4.883242] (ucsd_robocar_lane_detection2_pkg) StdoutLine: {'line': b'running build_py\n'}
+[4.884721] (mask_pkg) StdoutLine: {'line': b'running install_scripts\n'}
+[4.885897] (ucsd_robocar_lane_detection2_pkg) StdoutLine: {'line': b'copying ucsd_robocar_lane_detection2_pkg/lane_guidance_node.py -> /home/projects/ros2_ws/build/ucsd_robocar_lane_detection2_pkg/build/lib/ucsd_robocar_lane_detection2_pkg\n'}
+[4.888664] (ucsd_robocar_lane_detection2_pkg) StdoutLine: {'line': b'running install\n'}
+[4.892465] (ucsd_robocar_lane_detection2_pkg) StdoutLine: {'line': b'running install_lib\n'}
+[4.897900] (ucsd_robocar_lane_detection2_pkg) StdoutLine: {'line': b'copying /home/projects/ros2_ws/build/ucsd_robocar_lane_detection2_pkg/build/lib/ucsd_robocar_lane_detection2_pkg/lane_guidance_node.py -> /home/projects/ros2_ws/install/ucsd_robocar_lane_detection2_pkg/lib/python3.8/site-packages/ucsd_robocar_lane_detection2_pkg\n'}
+[4.902222] (ucsd_robocar_lane_detection2_pkg) StdoutLine: {'line': b'byte-compiling /home/projects/ros2_ws/install/ucsd_robocar_lane_detection2_pkg/lib/python3.8/site-packages/ucsd_robocar_lane_detection2_pkg/lane_guidance_node.py to lane_guidance_node.cpython-38.pyc\n'}
+[4.911726] (ucsd_robocar_lane_detection2_pkg) StdoutLine: {'line': b'running install_data\n'}
+[4.912520] (ucsd_robocar_nav2_pkg) StdoutLine: {'line': b"reading manifest file '../../../build/ucsd_robocar_nav2_pkg/ucsd_robocar_nav2_pkg.egg-info/SOURCES.txt'\n"}
+[4.914783] (ucsd_robocar_lane_detection2_pkg) StdoutLine: {'line': b'running install_egg_info\n'}
+[4.918715] (ucsd_robocar_nav2_pkg) StdoutLine: {'line': b"writing manifest file '../../../build/ucsd_robocar_nav2_pkg/ucsd_robocar_nav2_pkg.egg-info/SOURCES.txt'\n"}
+[4.920097] (ucsd_robocar_nav2_pkg) StdoutLine: {'line': b'running build\n'}
+[4.921025] (ucsd_robocar_nav2_pkg) StdoutLine: {'line': b'running build_py\n'}
+[4.922616] (ucsd_robocar_lane_detection2_pkg) StdoutLine: {'line': b"removing '/home/projects/ros2_ws/install/ucsd_robocar_lane_detection2_pkg/lib/python3.8/site-packages/ucsd_robocar_lane_detection2_pkg-0.0.0-py3.8.egg-info' (and everything under it)\n"}
+[4.923288] (ucsd_robocar_nav2_pkg) StdoutLine: {'line': b'running install\n'}
+[4.925642] (ucsd_robocar_lane_detection2_pkg) StdoutLine: {'line': b'Copying ../../../build/ucsd_robocar_lane_detection2_pkg/ucsd_robocar_lane_detection2_pkg.egg-info to /home/projects/ros2_ws/install/ucsd_robocar_lane_detection2_pkg/lib/python3.8/site-packages/ucsd_robocar_lane_detection2_pkg-0.0.0-py3.8.egg-info\n'}
+[4.927295] (ucsd_robocar_nav2_pkg) StdoutLine: {'line': b'running install_lib\n'}
+[4.932723] (ucsd_robocar_lane_detection2_pkg) StdoutLine: {'line': b'running install_scripts\n'}
+[4.934375] (ucsd_robocar_nav2_pkg) StdoutLine: {'line': b'running install_data\n'}
+[4.938558] (ucsd_robocar_nav2_pkg) StdoutLine: {'line': b'running install_egg_info\n'}
+[4.946357] (ucsd_robocar_nav2_pkg) StdoutLine: {'line': b"removing '/home/projects/ros2_ws/install/ucsd_robocar_nav2_pkg/lib/python3.8/site-packages/ucsd_robocar_nav2_pkg-0.0.0-py3.8.egg-info' (and everything under it)\n"}
+[4.948205] (ucsd_robocar_nav2_pkg) StdoutLine: {'line': b'Copying ../../../build/ucsd_robocar_nav2_pkg/ucsd_robocar_nav2_pkg.egg-info to /home/projects/ros2_ws/install/ucsd_robocar_nav2_pkg/lib/python3.8/site-packages/ucsd_robocar_nav2_pkg-0.0.0-py3.8.egg-info\n'}
+[4.951541] (-) TimerEvent: {}
+[4.955277] (ucsd_robocar_nav2_pkg) StdoutLine: {'line': b'running install_scripts\n'}
+[4.962451] (ucsd_robocar_actuator2_pkg) StdoutLine: {'line': b'Installing adafruit_servo_node script to /home/projects/ros2_ws/install/ucsd_robocar_actuator2_pkg/lib/ucsd_robocar_actuator2_pkg\n'}
+[4.964585] (ucsd_robocar_actuator2_pkg) StdoutLine: {'line': b'Installing adafruit_steering_node script to /home/projects/ros2_ws/install/ucsd_robocar_actuator2_pkg/lib/ucsd_robocar_actuator2_pkg\n'}
+[4.965277] (ucsd_robocar_actuator2_pkg) StdoutLine: {'line': b'Installing adafruit_throttle_node script to /home/projects/ros2_ws/install/ucsd_robocar_actuator2_pkg/lib/ucsd_robocar_actuator2_pkg\n'}
+[4.965735] (ucsd_robocar_actuator2_pkg) StdoutLine: {'line': b'Installing adafruit_twist_node script to /home/projects/ros2_ws/install/ucsd_robocar_actuator2_pkg/lib/ucsd_robocar_actuator2_pkg\n'}
+[4.966170] (ucsd_robocar_actuator2_pkg) StdoutLine: {'line': b'Installing vesc_rpm_node script to /home/projects/ros2_ws/install/ucsd_robocar_actuator2_pkg/lib/ucsd_robocar_actuator2_pkg\n'}
+[4.966831] (ucsd_robocar_actuator2_pkg) StdoutLine: {'line': b'Installing vesc_steering_node script to /home/projects/ros2_ws/install/ucsd_robocar_actuator2_pkg/lib/ucsd_robocar_actuator2_pkg\n'}
+[4.967284] (ucsd_robocar_actuator2_pkg) StdoutLine: {'line': b'Installing vesc_twist_node script to /home/projects/ros2_ws/install/ucsd_robocar_actuator2_pkg/lib/ucsd_robocar_actuator2_pkg\n'}
+[4.968567] (ucsd_robocar_actuator2_pkg) StdoutLine: {'line': b"writing list of installed files to '/home/projects/ros2_ws/build/ucsd_robocar_actuator2_pkg/install.log'\n"}
+[4.969215] (mask_pkg) StdoutLine: {'line': b'Installing mask_node script to /home/projects/ros2_ws/install/mask_pkg/lib/mask_pkg\n'}
+[4.970176] (mask_pkg) StdoutLine: {'line': b"writing list of installed files to '/home/projects/ros2_ws/build/mask_pkg/install.log'\n"}
+[5.027246] (ucsd_robocar_lane_detection2_pkg) StdoutLine: {'line': b'Installing calibration_node script to /home/projects/ros2_ws/install/ucsd_robocar_lane_detection2_pkg/lib/ucsd_robocar_lane_detection2_pkg\n'}
+[5.028491] (ucsd_robocar_lane_detection2_pkg) StdoutLine: {'line': b'Installing lane_detection_node script to /home/projects/ros2_ws/install/ucsd_robocar_lane_detection2_pkg/lib/ucsd_robocar_lane_detection2_pkg\n'}
+[5.030543] (ucsd_robocar_lane_detection2_pkg) StdoutLine: {'line': b'Installing lane_guidance_node script to /home/projects/ros2_ws/install/ucsd_robocar_lane_detection2_pkg/lib/ucsd_robocar_lane_detection2_pkg\n'}
+[5.033029] (ucsd_robocar_lane_detection2_pkg) StdoutLine: {'line': b"writing list of installed files to '/home/projects/ros2_ws/build/ucsd_robocar_lane_detection2_pkg/install.log'\n"}
+[5.047745] (ucsd_robocar_nav2_pkg) StdoutLine: {'line': b"writing list of installed files to '/home/projects/ros2_ws/build/ucsd_robocar_nav2_pkg/install.log'\n"}
+[5.051727] (-) TimerEvent: {}
+[5.088270] (ucsd_robocar_actuator2_pkg) CommandEnded: {'returncode': 0}
+[5.151892] (ucsd_robocar_actuator2_pkg) JobEnded: {'identifier': 'ucsd_robocar_actuator2_pkg', 'rc': 0}
+[5.161151] (-) TimerEvent: {}
+[5.161855] (ucsd_robocar_path2_pkg) JobStarted: {'identifier': 'ucsd_robocar_path2_pkg'}
+[5.193998] (ucsd_robocar_lane_detection2_pkg) CommandEnded: {'returncode': 0}
+[5.223394] (ucsd_robocar_lane_detection2_pkg) JobEnded: {'identifier': 'ucsd_robocar_lane_detection2_pkg', 'rc': 0}
+[5.227221] (mask_pkg) CommandEnded: {'returncode': 0}
+[5.248404] (mask_pkg) JobEnded: {'identifier': 'mask_pkg', 'rc': 0}
+[5.255127] (ucsd_robocar_sensor2_pkg) JobStarted: {'identifier': 'ucsd_robocar_sensor2_pkg'}
+[5.261382] (-) TimerEvent: {}
+[5.286686] (ucsd_robocar_nav2_pkg) CommandEnded: {'returncode': 0}
+[5.312828] (ucsd_robocar_nav2_pkg) JobEnded: {'identifier': 'ucsd_robocar_nav2_pkg', 'rc': 0}
+[5.361679] (-) TimerEvent: {}
+[5.462531] (-) TimerEvent: {}
+[5.563186] (-) TimerEvent: {}
+[5.663899] (-) TimerEvent: {}
+[5.764526] (-) TimerEvent: {}
+[5.865140] (-) TimerEvent: {}
+[5.965753] (-) TimerEvent: {}
+[6.066353] (-) TimerEvent: {}
+[6.166991] (-) TimerEvent: {}
+[6.267859] (-) TimerEvent: {}
+[6.368770] (-) TimerEvent: {}
+[6.469396] (-) TimerEvent: {}
+[6.570019] (-) TimerEvent: {}
+[6.670617] (-) TimerEvent: {}
+[6.771216] (-) TimerEvent: {}
+[6.871844] (-) TimerEvent: {}
+[6.972456] (-) TimerEvent: {}
+[7.073078] (-) TimerEvent: {}
+[7.087764] (ucsd_robocar_path2_pkg) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../../build/ucsd_robocar_path2_pkg', 'build', '--build-base', '/home/projects/ros2_ws/build/ucsd_robocar_path2_pkg/build', 'install', '--prefix', '/home/projects/ros2_ws/install/ucsd_robocar_path2_pkg', '--record', '/home/projects/ros2_ws/build/ucsd_robocar_path2_pkg/install.log', '--single-version-externally-managed'], 'cwd': '/home/projects/ros2_ws/src/ucsd_robocar_hub2/ucsd_robocar_path2_pkg', 'env': {'HOSTNAME': 'ucsdrobocar-148-07', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib', 'HOME': '/root', 'OLDPWD': '/home/projects/ros2_ws', 'ROS_PYTHON_VERSION': '3', 'COLCON_PREFIX_PATH': '/home/projects/ros2_ws/install:/home/projects/sensor2_ws/src/lidars/ld06/ros2/install', 'ROS_DISTRO': 'foxy', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'DISPLAY': 'localhost:10.0', 'LANG': 'C.UTF-8', 'ROS1_DISTRO': 'noetic', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'ROS2_DISTRO': 'foxy', 'AMENT_PREFIX_PATH': '/home/projects/ros2_ws/install/mask_pkg:/home/projects/ros2_ws/install/ucsd_robocar_sensor2_pkg:/home/projects/ros2_ws/install/ucsd_robocar_path2_pkg:/home/projects/ros2_ws/install/ucsd_robocar_nav2_pkg:/home/projects/ros2_ws/install/ucsd_robocar_lane_detection2_pkg:/home/projects/ros2_ws/install/ucsd_robocar_actuator2_pkg:/home/projects/sensor2_ws/src/lidars/ld06/ros2/install/ldlidar:/opt/ros/foxy', 'PWD': '/home/projects/ros2_ws/build/ucsd_robocar_path2_pkg', 'LC_ALL': 'C.UTF-8', 'PYTHONPATH': '/home/projects/ros2_ws/install/ucsd_robocar_path2_pkg/lib/python3.8/site-packages:/home/projects/ros2_ws/install/mask_pkg/lib/python3.8/site-packages:/home/projects/ros2_ws/install/ucsd_robocar_sensor2_pkg/lib/python3.8/site-packages:/home/projects/ros2_ws/install/ucsd_robocar_path2_pkg/lib/python3.8/site-packages:/home/projects/ros2_ws/install/ucsd_robocar_nav2_pkg/lib/python3.8/site-packages:/home/projects/ros2_ws/install/ucsd_robocar_lane_detection2_pkg/lib/python3.8/site-packages:/home/projects/ros2_ws/install/ucsd_robocar_actuator2_pkg/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/projects/sensor2_ws/src/lidars/ld06/ros2/install/ldlidar'}, 'shell': False}
+[7.101466] (ucsd_robocar_sensor2_pkg) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../../build/ucsd_robocar_sensor2_pkg', 'build', '--build-base', '/home/projects/ros2_ws/build/ucsd_robocar_sensor2_pkg/build', 'install', '--prefix', '/home/projects/ros2_ws/install/ucsd_robocar_sensor2_pkg', '--record', '/home/projects/ros2_ws/build/ucsd_robocar_sensor2_pkg/install.log', '--single-version-externally-managed'], 'cwd': '/home/projects/ros2_ws/src/ucsd_robocar_hub2/ucsd_robocar_sensor2_pkg', 'env': {'HOSTNAME': 'ucsdrobocar-148-07', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib', 'HOME': '/root', 'OLDPWD': '/home/projects/ros2_ws', 'ROS_PYTHON_VERSION': '3', 'COLCON_PREFIX_PATH': '/home/projects/ros2_ws/install:/home/projects/sensor2_ws/src/lidars/ld06/ros2/install', 'ROS_DISTRO': 'foxy', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'DISPLAY': 'localhost:10.0', 'LANG': 'C.UTF-8', 'ROS1_DISTRO': 'noetic', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'ROS2_DISTRO': 'foxy', 'AMENT_PREFIX_PATH': '/home/projects/ros2_ws/install/mask_pkg:/home/projects/ros2_ws/install/ucsd_robocar_sensor2_pkg:/home/projects/ros2_ws/install/ucsd_robocar_path2_pkg:/home/projects/ros2_ws/install/ucsd_robocar_nav2_pkg:/home/projects/ros2_ws/install/ucsd_robocar_lane_detection2_pkg:/home/projects/ros2_ws/install/ucsd_robocar_actuator2_pkg:/home/projects/sensor2_ws/src/lidars/ld06/ros2/install/ldlidar:/opt/ros/foxy', 'PWD': '/home/projects/ros2_ws/build/ucsd_robocar_sensor2_pkg', 'LC_ALL': 'C.UTF-8', 'PYTHONPATH': '/home/projects/ros2_ws/install/ucsd_robocar_sensor2_pkg/lib/python3.8/site-packages:/home/projects/ros2_ws/install/mask_pkg/lib/python3.8/site-packages:/home/projects/ros2_ws/install/ucsd_robocar_sensor2_pkg/lib/python3.8/site-packages:/home/projects/ros2_ws/install/ucsd_robocar_path2_pkg/lib/python3.8/site-packages:/home/projects/ros2_ws/install/ucsd_robocar_nav2_pkg/lib/python3.8/site-packages:/home/projects/ros2_ws/install/ucsd_robocar_lane_detection2_pkg/lib/python3.8/site-packages:/home/projects/ros2_ws/install/ucsd_robocar_actuator2_pkg/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/projects/sensor2_ws/src/lidars/ld06/ros2/install/ldlidar'}, 'shell': False}
+[7.173293] (-) TimerEvent: {}
+[7.274076] (-) TimerEvent: {}
+[7.374737] (-) TimerEvent: {}
+[7.475399] (-) TimerEvent: {}
+[7.576055] (-) TimerEvent: {}
+[7.676694] (-) TimerEvent: {}
+[7.777337] (-) TimerEvent: {}
+[7.877961] (-) TimerEvent: {}
+[7.951405] (ucsd_robocar_sensor2_pkg) StdoutLine: {'line': b'running egg_info\n'}
+[7.952255] (ucsd_robocar_path2_pkg) StdoutLine: {'line': b'running egg_info\n'}
+[7.954170] (ucsd_robocar_path2_pkg) StdoutLine: {'line': b'writing ../../../build/ucsd_robocar_path2_pkg/ucsd_robocar_path2_pkg.egg-info/PKG-INFO\n'}
+[7.954766] (ucsd_robocar_sensor2_pkg) StdoutLine: {'line': b'writing ../../../build/ucsd_robocar_sensor2_pkg/ucsd_robocar_sensor2_pkg.egg-info/PKG-INFO\n'}
+[7.955989] (ucsd_robocar_path2_pkg) StdoutLine: {'line': b'writing dependency_links to ../../../build/ucsd_robocar_path2_pkg/ucsd_robocar_path2_pkg.egg-info/dependency_links.txt\n'}
+[7.956701] (ucsd_robocar_path2_pkg) StdoutLine: {'line': b'writing entry points to ../../../build/ucsd_robocar_path2_pkg/ucsd_robocar_path2_pkg.egg-info/entry_points.txt\n'}
+[7.957170] (ucsd_robocar_path2_pkg) StdoutLine: {'line': b'writing requirements to ../../../build/ucsd_robocar_path2_pkg/ucsd_robocar_path2_pkg.egg-info/requires.txt\n'}
+[7.957520] (ucsd_robocar_sensor2_pkg) StdoutLine: {'line': b'writing dependency_links to ../../../build/ucsd_robocar_sensor2_pkg/ucsd_robocar_sensor2_pkg.egg-info/dependency_links.txt\n'}
+[7.957896] (ucsd_robocar_sensor2_pkg) StdoutLine: {'line': b'writing entry points to ../../../build/ucsd_robocar_sensor2_pkg/ucsd_robocar_sensor2_pkg.egg-info/entry_points.txt\n'}
+[7.958326] (ucsd_robocar_sensor2_pkg) StdoutLine: {'line': b'writing requirements to ../../../build/ucsd_robocar_sensor2_pkg/ucsd_robocar_sensor2_pkg.egg-info/requires.txt\n'}
+[7.958687] (ucsd_robocar_path2_pkg) StdoutLine: {'line': b'writing top-level names to ../../../build/ucsd_robocar_path2_pkg/ucsd_robocar_path2_pkg.egg-info/top_level.txt\n'}
+[7.959115] (ucsd_robocar_sensor2_pkg) StdoutLine: {'line': b'writing top-level names to ../../../build/ucsd_robocar_sensor2_pkg/ucsd_robocar_sensor2_pkg.egg-info/top_level.txt\n'}
+[7.978106] (-) TimerEvent: {}
+[8.078759] (-) TimerEvent: {}
+[8.120145] (ucsd_robocar_sensor2_pkg) StdoutLine: {'line': b"reading manifest file '../../../build/ucsd_robocar_sensor2_pkg/ucsd_robocar_sensor2_pkg.egg-info/SOURCES.txt'\n"}
+[8.122432] (ucsd_robocar_path2_pkg) StdoutLine: {'line': b"reading manifest file '../../../build/ucsd_robocar_path2_pkg/ucsd_robocar_path2_pkg.egg-info/SOURCES.txt'\n"}
+[8.125095] (ucsd_robocar_sensor2_pkg) StdoutLine: {'line': b"writing manifest file '../../../build/ucsd_robocar_sensor2_pkg/ucsd_robocar_sensor2_pkg.egg-info/SOURCES.txt'\n"}
+[8.127322] (ucsd_robocar_sensor2_pkg) StdoutLine: {'line': b'running build\n'}
+[8.127832] (ucsd_robocar_sensor2_pkg) StdoutLine: {'line': b'running build_py\n'}
+[8.128330] (ucsd_robocar_sensor2_pkg) StdoutLine: {'line': b'running install\n'}
+[8.128860] (ucsd_robocar_path2_pkg) StdoutLine: {'line': b"writing manifest file '../../../build/ucsd_robocar_path2_pkg/ucsd_robocar_path2_pkg.egg-info/SOURCES.txt'\n"}
+[8.129269] (ucsd_robocar_path2_pkg) StdoutLine: {'line': b'running build\n'}
+[8.129643] (ucsd_robocar_path2_pkg) StdoutLine: {'line': b'running build_py\n'}
+[8.130025] (ucsd_robocar_path2_pkg) StdoutLine: {'line': b'running install\n'}
+[8.130529] (ucsd_robocar_sensor2_pkg) StdoutLine: {'line': b'running install_lib\n'}
+[8.131802] (ucsd_robocar_path2_pkg) StdoutLine: {'line': b'running install_lib\n'}
+[8.136102] (ucsd_robocar_sensor2_pkg) StdoutLine: {'line': b'running install_data\n'}
+[8.137503] (ucsd_robocar_path2_pkg) StdoutLine: {'line': b'running install_data\n'}
+[8.139666] (ucsd_robocar_sensor2_pkg) StdoutLine: {'line': b'running install_egg_info\n'}
+[8.140129] (ucsd_robocar_path2_pkg) StdoutLine: {'line': b'running install_egg_info\n'}
+[8.146274] (ucsd_robocar_sensor2_pkg) StdoutLine: {'line': b"removing '/home/projects/ros2_ws/install/ucsd_robocar_sensor2_pkg/lib/python3.8/site-packages/ucsd_robocar_sensor2_pkg-0.0.0-py3.8.egg-info' (and everything under it)\n"}
+[8.146897] (ucsd_robocar_path2_pkg) StdoutLine: {'line': b"removing '/home/projects/ros2_ws/install/ucsd_robocar_path2_pkg/lib/python3.8/site-packages/ucsd_robocar_path2_pkg-0.0.0-py3.8.egg-info' (and everything under it)\n"}
+[8.147714] (ucsd_robocar_path2_pkg) StdoutLine: {'line': b'Copying ../../../build/ucsd_robocar_path2_pkg/ucsd_robocar_path2_pkg.egg-info to /home/projects/ros2_ws/install/ucsd_robocar_path2_pkg/lib/python3.8/site-packages/ucsd_robocar_path2_pkg-0.0.0-py3.8.egg-info\n'}
+[8.148157] (ucsd_robocar_sensor2_pkg) StdoutLine: {'line': b'Copying ../../../build/ucsd_robocar_sensor2_pkg/ucsd_robocar_sensor2_pkg.egg-info to /home/projects/ros2_ws/install/ucsd_robocar_sensor2_pkg/lib/python3.8/site-packages/ucsd_robocar_sensor2_pkg-0.0.0-py3.8.egg-info\n'}
+[8.151574] (ucsd_robocar_path2_pkg) StdoutLine: {'line': b'running install_scripts\n'}
+[8.152040] (ucsd_robocar_sensor2_pkg) StdoutLine: {'line': b'running install_scripts\n'}
+[8.178905] (-) TimerEvent: {}
+[8.221741] (ucsd_robocar_sensor2_pkg) StdoutLine: {'line': b'Installing webcam_node script to /home/projects/ros2_ws/install/ucsd_robocar_sensor2_pkg/lib/ucsd_robocar_sensor2_pkg\n'}
+[8.222529] (ucsd_robocar_path2_pkg) StdoutLine: {'line': b'Installing simple_obstacle_detection_node script to /home/projects/ros2_ws/install/ucsd_robocar_path2_pkg/lib/ucsd_robocar_path2_pkg\n'}
+[8.223212] (ucsd_robocar_sensor2_pkg) StdoutLine: {'line': b"writing list of installed files to '/home/projects/ros2_ws/build/ucsd_robocar_sensor2_pkg/install.log'\n"}
+[8.224027] (ucsd_robocar_path2_pkg) StdoutLine: {'line': b"writing list of installed files to '/home/projects/ros2_ws/build/ucsd_robocar_path2_pkg/install.log'\n"}
+[8.279091] (-) TimerEvent: {}
+[8.332379] (ucsd_robocar_sensor2_pkg) CommandEnded: {'returncode': 0}
+[8.357468] (ucsd_robocar_sensor2_pkg) JobEnded: {'identifier': 'ucsd_robocar_sensor2_pkg', 'rc': 0}
+[8.365083] (ucsd_robocar_path2_pkg) CommandEnded: {'returncode': 0}
+[8.380586] (-) TimerEvent: {}
+[8.389632] (ucsd_robocar_path2_pkg) JobEnded: {'identifier': 'ucsd_robocar_path2_pkg', 'rc': 0}
+[8.393530] (-) EventReactorShutdown: {}

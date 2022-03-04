@@ -1,0 +1,23 @@
+[3.960s] Invoking command in '/home/projects/ros2_ws/src/ucsd_robocar_hub2/ucsd_robocar_lane_detection2_pkg': PYTHONPATH=/home/projects/ros2_ws/install/ucsd_robocar_lane_detection2_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/ucsd_robocar_lane_detection2_pkg build --build-base /home/projects/ros2_ws/build/ucsd_robocar_lane_detection2_pkg/build install --prefix /home/projects/ros2_ws/install/ucsd_robocar_lane_detection2_pkg --record /home/projects/ros2_ws/build/ucsd_robocar_lane_detection2_pkg/install.log --single-version-externally-managed
+[5.043s] running egg_info
+[5.047s] writing ../../../build/ucsd_robocar_lane_detection2_pkg/ucsd_robocar_lane_detection2_pkg.egg-info/PKG-INFO
+[5.048s] writing dependency_links to ../../../build/ucsd_robocar_lane_detection2_pkg/ucsd_robocar_lane_detection2_pkg.egg-info/dependency_links.txt
+[5.048s] writing entry points to ../../../build/ucsd_robocar_lane_detection2_pkg/ucsd_robocar_lane_detection2_pkg.egg-info/entry_points.txt
+[5.049s] writing requirements to ../../../build/ucsd_robocar_lane_detection2_pkg/ucsd_robocar_lane_detection2_pkg.egg-info/requires.txt
+[5.050s] writing top-level names to ../../../build/ucsd_robocar_lane_detection2_pkg/ucsd_robocar_lane_detection2_pkg.egg-info/top_level.txt
+[5.228s] reading manifest file '../../../build/ucsd_robocar_lane_detection2_pkg/ucsd_robocar_lane_detection2_pkg.egg-info/SOURCES.txt'
+[5.234s] writing manifest file '../../../build/ucsd_robocar_lane_detection2_pkg/ucsd_robocar_lane_detection2_pkg.egg-info/SOURCES.txt'
+[5.234s] running build
+[5.235s] running build_py
+[5.236s] running install
+[5.240s] running install_lib
+[5.248s] running install_data
+[5.251s] running install_egg_info
+[5.259s] removing '/home/projects/ros2_ws/install/ucsd_robocar_lane_detection2_pkg/lib/python3.8/site-packages/ucsd_robocar_lane_detection2_pkg-0.0.0-py3.8.egg-info' (and everything under it)
+[5.261s] Copying ../../../build/ucsd_robocar_lane_detection2_pkg/ucsd_robocar_lane_detection2_pkg.egg-info to /home/projects/ros2_ws/install/ucsd_robocar_lane_detection2_pkg/lib/python3.8/site-packages/ucsd_robocar_lane_detection2_pkg-0.0.0-py3.8.egg-info
+[5.266s] running install_scripts
+[5.358s] Installing calibration_node script to /home/projects/ros2_ws/install/ucsd_robocar_lane_detection2_pkg/lib/ucsd_robocar_lane_detection2_pkg
+[5.359s] Installing lane_detection_node script to /home/projects/ros2_ws/install/ucsd_robocar_lane_detection2_pkg/lib/ucsd_robocar_lane_detection2_pkg
+[5.361s] Installing lane_guidance_node script to /home/projects/ros2_ws/install/ucsd_robocar_lane_detection2_pkg/lib/ucsd_robocar_lane_detection2_pkg
+[5.365s] writing list of installed files to '/home/projects/ros2_ws/build/ucsd_robocar_lane_detection2_pkg/install.log'
+[5.587s] Invoked command in '/home/projects/ros2_ws/src/ucsd_robocar_hub2/ucsd_robocar_lane_detection2_pkg' returned '0': PYTHONPATH=/home/projects/ros2_ws/install/ucsd_robocar_lane_detection2_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/ucsd_robocar_lane_detection2_pkg build --build-base /home/projects/ros2_ws/build/ucsd_robocar_lane_detection2_pkg/build install --prefix /home/projects/ros2_ws/install/ucsd_robocar_lane_detection2_pkg --record /home/projects/ros2_ws/build/ucsd_robocar_lane_detection2_pkg/install.log --single-version-externally-managed

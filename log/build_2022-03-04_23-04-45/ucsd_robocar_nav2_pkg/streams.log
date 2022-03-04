@@ -1,0 +1,20 @@
+[3.932s] Invoking command in '/home/projects/ros2_ws/src/ucsd_robocar_hub2/ucsd_robocar_nav2_pkg': PYTHONPATH=/home/projects/ros2_ws/install/ucsd_robocar_nav2_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/ucsd_robocar_nav2_pkg build --build-base /home/projects/ros2_ws/build/ucsd_robocar_nav2_pkg/build install --prefix /home/projects/ros2_ws/install/ucsd_robocar_nav2_pkg --record /home/projects/ros2_ws/build/ucsd_robocar_nav2_pkg/install.log --single-version-externally-managed
+[4.992s] running egg_info
+[4.995s] writing ../../../build/ucsd_robocar_nav2_pkg/ucsd_robocar_nav2_pkg.egg-info/PKG-INFO
+[4.998s] writing dependency_links to ../../../build/ucsd_robocar_nav2_pkg/ucsd_robocar_nav2_pkg.egg-info/dependency_links.txt
+[4.999s] writing entry points to ../../../build/ucsd_robocar_nav2_pkg/ucsd_robocar_nav2_pkg.egg-info/entry_points.txt
+[4.999s] writing requirements to ../../../build/ucsd_robocar_nav2_pkg/ucsd_robocar_nav2_pkg.egg-info/requires.txt
+[5.000s] writing top-level names to ../../../build/ucsd_robocar_nav2_pkg/ucsd_robocar_nav2_pkg.egg-info/top_level.txt
+[5.174s] reading manifest file '../../../build/ucsd_robocar_nav2_pkg/ucsd_robocar_nav2_pkg.egg-info/SOURCES.txt'
+[5.180s] writing manifest file '../../../build/ucsd_robocar_nav2_pkg/ucsd_robocar_nav2_pkg.egg-info/SOURCES.txt'
+[5.181s] running build
+[5.182s] running build_py
+[5.184s] running install
+[5.189s] running install_lib
+[5.195s] running install_data
+[5.200s] running install_egg_info
+[5.209s] removing '/home/projects/ros2_ws/install/ucsd_robocar_nav2_pkg/lib/python3.8/site-packages/ucsd_robocar_nav2_pkg-0.0.0-py3.8.egg-info' (and everything under it)
+[5.211s] Copying ../../../build/ucsd_robocar_nav2_pkg/ucsd_robocar_nav2_pkg.egg-info to /home/projects/ros2_ws/install/ucsd_robocar_nav2_pkg/lib/python3.8/site-packages/ucsd_robocar_nav2_pkg-0.0.0-py3.8.egg-info
+[5.218s] running install_scripts
+[5.305s] writing list of installed files to '/home/projects/ros2_ws/build/ucsd_robocar_nav2_pkg/install.log'
+[5.509s] Invoked command in '/home/projects/ros2_ws/src/ucsd_robocar_hub2/ucsd_robocar_nav2_pkg' returned '0': PYTHONPATH=/home/projects/ros2_ws/install/ucsd_robocar_nav2_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/ucsd_robocar_nav2_pkg build --build-base /home/projects/ros2_ws/build/ucsd_robocar_nav2_pkg/build install --prefix /home/projects/ros2_ws/install/ucsd_robocar_nav2_pkg --record /home/projects/ros2_ws/build/ucsd_robocar_nav2_pkg/install.log --single-version-externally-managed

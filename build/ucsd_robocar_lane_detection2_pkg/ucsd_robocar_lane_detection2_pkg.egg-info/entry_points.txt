@@ -1,0 +1,5 @@
+[console_scripts]
+calibration_node = ucsd_robocar_lane_detection2_pkg.calibration_node:main
+lane_detection_node = ucsd_robocar_lane_detection2_pkg.lane_detection_node:main
+lane_guidance_node = ucsd_robocar_lane_detection2_pkg.lane_guidance_node:main
+

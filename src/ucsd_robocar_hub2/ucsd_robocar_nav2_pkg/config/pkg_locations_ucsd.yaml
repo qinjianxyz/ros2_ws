@@ -1,0 +1,31 @@
+# 
+# param: ['package', 'launch_file', 'sensor_type', 'topics_published']
+#
+
+# Lidars
+sick : ['ucsd_robocar_sensor2_pkg', 'lidar_sicktim.launch.py','lidar', '/scan']
+livox : ['ucsd_robocar_sensor2_pkg','lidar_livox.launch.py','lidar', '/scan']
+bpearl : ['ucsd_robocar_sensor2_pkg','lidar_bpearl.launch.py','lidar', '/scan']
+rp_lidar : ['ucsd_robocar_sensor2_pkg', 'lidar_rp.launch.py','lidar', '/scan']
+ld06 : ['ucsd_robocar_sensor2_pkg','lidar_ld06.launch.py','lidar', '/scan']
+
+# IMU
+artemis: ['ucsd_robocar_sensor2_pkg', 'razor-pub.launch', 'imu', '/imu']
+
+# GPS
+ublox: ['ucsd_robocar_sensor2_pkg', 'ublox.launch.py', 'gps','/gps_topic_name']
+
+# Cameras
+webcam: ['ucsd_robocar_sensor2_pkg', 'camera_webcam.launch.py', 'camera', '/camera/color/image_raw']
+intel455: ['ucsd_robocar_sensor2_pkg', 'camera_intel455.launch.py', 'camera', '/camera/color/image_raw']
+
+# Actuators
+# vesc: ['ucsd_robocar_actuator2_pkg', 'vesc_twist.launch.py','motor', '/cmd_vel']
+# adafruit: ['ucsd_robocar_actuator2_pkg', 'adafruit_twist.launch.py','motor', '/cmd_vel']
+adafruit_servo: ['ucsd_robocar_actuator2_pkg', 'adafruit_servo.launch.py', 'motor', '/servo']
+#vesc_steering: ['ucsd_robocar_actuator2_pkg', 'vesc_steering.launch.py','motor', '/steering']
+#vesc_throttle: ['ucsd_robocar_actuator2_pkg', 'vesc_throttle.launch.py','motor', '/throttle']
+#adafruit_steering: ['ucsd_robocar_actuator2_pkg', 'adafruit_steering.launch.py','motor', '/steering']
+#adafruit_throttle: ['ucsd_robocar_actuator2_pkg', 'adafruit_throttle.launch.py','motor', '/throttle']
+esp32: ['ucsd_robocar_actuator2_pkg', 'esp32.launch.py','motor', '/esp32/throttle']
+stm32: ['ucsd_robocar_actuator2_pkg', 'stm32.launch.py','motor', '/stm32/throttle']

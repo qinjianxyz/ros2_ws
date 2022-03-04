@@ -1,0 +1,21 @@
+[4.013s] Invoking command in '/home/projects/ros2_ws/src/ucsd_robocar_hub2/mask_pkg': PYTHONPATH=/home/projects/ros2_ws/install/mask_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/mask_pkg build --build-base /home/projects/ros2_ws/build/mask_pkg/build install --prefix /home/projects/ros2_ws/install/mask_pkg --record /home/projects/ros2_ws/build/mask_pkg/install.log --single-version-externally-managed
+[5.055s] running egg_info
+[5.058s] writing ../../../build/mask_pkg/mask_pkg.egg-info/PKG-INFO
+[5.060s] writing dependency_links to ../../../build/mask_pkg/mask_pkg.egg-info/dependency_links.txt
+[5.061s] writing entry points to ../../../build/mask_pkg/mask_pkg.egg-info/entry_points.txt
+[5.063s] writing requirements to ../../../build/mask_pkg/mask_pkg.egg-info/requires.txt
+[5.064s] writing top-level names to ../../../build/mask_pkg/mask_pkg.egg-info/top_level.txt
+[5.244s] reading manifest file '../../../build/mask_pkg/mask_pkg.egg-info/SOURCES.txt'
+[5.250s] writing manifest file '../../../build/mask_pkg/mask_pkg.egg-info/SOURCES.txt'
+[5.251s] running build
+[5.251s] running build_py
+[5.252s] running install
+[5.257s] running install_lib
+[5.264s] running install_data
+[5.267s] running install_egg_info
+[5.275s] removing '/home/projects/ros2_ws/install/mask_pkg/lib/python3.8/site-packages/mask_pkg-0.0.0-py3.8.egg-info' (and everything under it)
+[5.278s] Copying ../../../build/mask_pkg/mask_pkg.egg-info to /home/projects/ros2_ws/install/mask_pkg/lib/python3.8/site-packages/mask_pkg-0.0.0-py3.8.egg-info
+[5.283s] running install_scripts
+[5.367s] Installing mask_node script to /home/projects/ros2_ws/install/mask_pkg/lib/mask_pkg
+[5.371s] writing list of installed files to '/home/projects/ros2_ws/build/mask_pkg/install.log'
+[5.499s] Invoked command in '/home/projects/ros2_ws/src/ucsd_robocar_hub2/mask_pkg' returned '0': PYTHONPATH=/home/projects/ros2_ws/install/mask_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/mask_pkg build --build-base /home/projects/ros2_ws/build/mask_pkg/build install --prefix /home/projects/ros2_ws/install/mask_pkg --record /home/projects/ros2_ws/build/mask_pkg/install.log --single-version-externally-managed

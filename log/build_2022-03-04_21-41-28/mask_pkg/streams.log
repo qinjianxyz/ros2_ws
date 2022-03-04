@@ -1,0 +1,22 @@
+[3.695s] Invoking command in '/home/projects/ros2_ws/src/ucsd_robocar_hub2/mask_pkg': PYTHONPATH=/home/projects/ros2_ws/install/mask_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/mask_pkg build --build-base /home/projects/ros2_ws/build/mask_pkg/build install --prefix /home/projects/ros2_ws/install/mask_pkg --record /home/projects/ros2_ws/build/mask_pkg/install.log --single-version-externally-managed
+[4.637s] running egg_info
+[4.641s] writing ../../../build/mask_pkg/mask_pkg.egg-info/PKG-INFO
+[4.644s] writing dependency_links to ../../../build/mask_pkg/mask_pkg.egg-info/dependency_links.txt
+[4.648s] writing entry points to ../../../build/mask_pkg/mask_pkg.egg-info/entry_points.txt
+[4.650s] writing requirements to ../../../build/mask_pkg/mask_pkg.egg-info/requires.txt
+[4.651s] writing top-level names to ../../../build/mask_pkg/mask_pkg.egg-info/top_level.txt
+[4.837s] reading manifest file '../../../build/mask_pkg/mask_pkg.egg-info/SOURCES.txt'
+[4.841s] writing manifest file '../../../build/mask_pkg/mask_pkg.egg-info/SOURCES.txt'
+[4.843s] running build
+[4.844s] running build_py
+[4.848s] running install
+[4.851s] running install_lib
+[4.858s] running install_data
+[4.861s] copying launch/mask_detection.launch.py -> /home/projects/ros2_ws/install/mask_pkg/share/mask_pkg/launch
+[4.862s] running install_egg_info
+[4.872s] removing '/home/projects/ros2_ws/install/mask_pkg/lib/python3.8/site-packages/mask_pkg-0.0.0-py3.8.egg-info' (and everything under it)
+[4.874s] Copying ../../../build/mask_pkg/mask_pkg.egg-info to /home/projects/ros2_ws/install/mask_pkg/lib/python3.8/site-packages/mask_pkg-0.0.0-py3.8.egg-info
+[4.878s] running install_scripts
+[4.958s] Installing mask_node script to /home/projects/ros2_ws/install/mask_pkg/lib/mask_pkg
+[4.960s] writing list of installed files to '/home/projects/ros2_ws/build/mask_pkg/install.log'
+[5.081s] Invoked command in '/home/projects/ros2_ws/src/ucsd_robocar_hub2/mask_pkg' returned '0': PYTHONPATH=/home/projects/ros2_ws/install/mask_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/mask_pkg build --build-base /home/projects/ros2_ws/build/mask_pkg/build install --prefix /home/projects/ros2_ws/install/mask_pkg --record /home/projects/ros2_ws/build/mask_pkg/install.log --single-version-externally-managed

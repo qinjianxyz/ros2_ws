@@ -1,0 +1,17 @@
+sick: 0
+livox: 0
+bpearl: 0
+rp_lidar: 0
+ld06: 0
+webcam: 1
+intelD455: 0
+oakd: 0
+zed: 0
+artemis: 0
+ublox: 0
+vesc: 0
+adafruit: 1
+esp32: 0
+stm32: 0
+bldc_sensor: 0
+bldc_no_sensor: 0

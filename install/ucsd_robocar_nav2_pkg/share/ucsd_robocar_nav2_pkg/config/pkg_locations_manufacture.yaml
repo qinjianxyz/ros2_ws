@@ -1,0 +1,15 @@
+#sick : ['sick_scan', 'sick_lms_5xx.launch']
+# sick : ['sick_scan2', 'sick_tim_5xx.launch.py']
+sick : ['ucsd_robocar_sensor_pkg', 'lidar_sicktim.launch.py']
+livox : ['livox_ros2_driver','livox_lidar_rviz_launch.py']
+bpearl : ['rslidar_sdk','start.py']
+rp_lidar : ['rplidar_ros', 'rplidar.launch.py']
+ld06 : ['ldlidar','ldlidar.launch.py']
+artemis: ['razor_imu_9dof', 'razor-pub.launch']
+ublox: 0
+vesc: ['ucsd_robocar_actuator_pkg', 'vesc.launch.py']
+adafruit: ['ucsd_robocar_actuator_pkg', 'adafruit.launch.py']
+esp32: 0
+stm32: 0
+
+ 

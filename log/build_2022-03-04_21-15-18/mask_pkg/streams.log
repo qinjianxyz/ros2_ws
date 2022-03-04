@@ -1,0 +1,39 @@
+[3.675s] Invoking command in '/home/projects/ros2_ws/src/ucsd_robocar_hub2/mask_pkg': PYTHONPATH=/home/projects/ros2_ws/install/mask_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/mask_pkg build --build-base /home/projects/ros2_ws/build/mask_pkg/build install --prefix /home/projects/ros2_ws/install/mask_pkg --record /home/projects/ros2_ws/build/mask_pkg/install.log --single-version-externally-managed
+[4.650s] running egg_info
+[4.652s] creating ../../../build/mask_pkg/mask_pkg.egg-info
+[4.652s] writing ../../../build/mask_pkg/mask_pkg.egg-info/PKG-INFO
+[4.653s] writing dependency_links to ../../../build/mask_pkg/mask_pkg.egg-info/dependency_links.txt
+[4.655s] writing entry points to ../../../build/mask_pkg/mask_pkg.egg-info/entry_points.txt
+[4.655s] writing requirements to ../../../build/mask_pkg/mask_pkg.egg-info/requires.txt
+[4.656s] writing top-level names to ../../../build/mask_pkg/mask_pkg.egg-info/top_level.txt
+[4.684s] writing manifest file '../../../build/mask_pkg/mask_pkg.egg-info/SOURCES.txt'
+[4.874s] reading manifest file '../../../build/mask_pkg/mask_pkg.egg-info/SOURCES.txt'
+[4.878s] writing manifest file '../../../build/mask_pkg/mask_pkg.egg-info/SOURCES.txt'
+[4.878s] running build
+[4.879s] running build_py
+[4.880s] creating /home/projects/ros2_ws/build/mask_pkg/build
+[4.881s] creating /home/projects/ros2_ws/build/mask_pkg/build/lib
+[4.882s] creating /home/projects/ros2_ws/build/mask_pkg/build/lib/mask_pkg
+[4.884s] copying mask_pkg/mask_node.py -> /home/projects/ros2_ws/build/mask_pkg/build/lib/mask_pkg
+[4.884s] copying mask_pkg/__init__.py -> /home/projects/ros2_ws/build/mask_pkg/build/lib/mask_pkg
+[4.885s] running install
+[4.891s] running install_lib
+[4.904s] creating /home/projects/ros2_ws/install/mask_pkg/lib/python3.8/site-packages/mask_pkg
+[4.906s] copying /home/projects/ros2_ws/build/mask_pkg/build/lib/mask_pkg/mask_node.py -> /home/projects/ros2_ws/install/mask_pkg/lib/python3.8/site-packages/mask_pkg
+[4.907s] copying /home/projects/ros2_ws/build/mask_pkg/build/lib/mask_pkg/__init__.py -> /home/projects/ros2_ws/install/mask_pkg/lib/python3.8/site-packages/mask_pkg
+[4.908s] byte-compiling /home/projects/ros2_ws/install/mask_pkg/lib/python3.8/site-packages/mask_pkg/mask_node.py to mask_node.cpython-38.pyc
+[4.912s] byte-compiling /home/projects/ros2_ws/install/mask_pkg/lib/python3.8/site-packages/mask_pkg/__init__.py to __init__.cpython-38.pyc
+[4.912s] running install_data
+[4.914s] creating /home/projects/ros2_ws/install/mask_pkg/share/ament_index
+[4.915s] creating /home/projects/ros2_ws/install/mask_pkg/share/ament_index/resource_index
+[4.916s] creating /home/projects/ros2_ws/install/mask_pkg/share/ament_index/resource_index/packages
+[4.917s] copying resource/mask_pkg -> /home/projects/ros2_ws/install/mask_pkg/share/ament_index/resource_index/packages
+[4.918s] copying package.xml -> /home/projects/ros2_ws/install/mask_pkg/share/mask_pkg
+[4.918s] creating /home/projects/ros2_ws/install/mask_pkg/share/mask_pkg/launch
+[4.919s] creating /home/projects/ros2_ws/install/mask_pkg/share/mask_pkg/config
+[4.920s] running install_egg_info
+[4.926s] Copying ../../../build/mask_pkg/mask_pkg.egg-info to /home/projects/ros2_ws/install/mask_pkg/lib/python3.8/site-packages/mask_pkg-0.0.0-py3.8.egg-info
+[4.930s] running install_scripts
+[5.025s] Installing mask_node script to /home/projects/ros2_ws/install/mask_pkg/lib/mask_pkg
+[5.026s] writing list of installed files to '/home/projects/ros2_ws/build/mask_pkg/install.log'
+[5.154s] Invoked command in '/home/projects/ros2_ws/src/ucsd_robocar_hub2/mask_pkg' returned '0': PYTHONPATH=/home/projects/ros2_ws/install/mask_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/mask_pkg build --build-base /home/projects/ros2_ws/build/mask_pkg/build install --prefix /home/projects/ros2_ws/install/mask_pkg --record /home/projects/ros2_ws/build/mask_pkg/install.log --single-version-externally-managed
