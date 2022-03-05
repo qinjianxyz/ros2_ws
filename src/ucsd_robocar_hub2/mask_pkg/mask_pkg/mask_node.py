@@ -56,9 +56,7 @@ def main(args=None):
     mask_publisher = MaskDetection()
     rate = mask_publisher.create_rate(0.5)
     try:
-        while rclpy.ok():
-            rclpy.spin_once(mask_publisher)
-            rate.sleep()
+        rclpy.spin(mask_publisher)
         mask_publisher.destroy_node()
         rclpy.shutdown()
     except KeyboardInterrupt:
