@@ -46,7 +46,7 @@ class MaskDetection(Node):
             self.get_logger().info(f"Label: {label}, Score: {score}")
             print(f"Label: {label}, Score: {score}")
             # if a stop sign is detected send out a 1 else send out 0
-            if label == 'mask_off' and score > 0.6:
+            if label == 'without_mask' and score > 0.8:
                 self.mask_detected.data = 1
                 self.servo_publisher.publish(100)
                 self.mask_publisher.publish(self.mask_detected)
