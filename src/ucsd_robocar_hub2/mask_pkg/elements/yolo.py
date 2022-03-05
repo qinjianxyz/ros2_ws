@@ -12,7 +12,7 @@ class OBJ_DETECTION():
         self.yolo_model = attempt_load(weights=model_path, map_location=device)
         self.input_width = 320
 
-    def detect(self,main_img):
+    def detect(self, main_img):
         height, width = main_img.shape[:2]
         new_height = int((((self.input_width/width)*height)//32)*32)
 
