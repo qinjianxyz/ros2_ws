@@ -48,7 +48,7 @@ class MaskDetection(Node):
             # if a stop sign is detected send out a 1 else send out 0
             if label == 'mask_off' and score > 0.6:
                 self.mask_detected.data = 1
-                self.servo_publisher.publish(20)
+                self.servo_publisher.publish(100)
                 self.mask_publisher.publish(self.mask_detected)
             else:
                 self.mask_detected.data = 0

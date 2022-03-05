@@ -17,8 +17,6 @@ def generate_launch_description():
     lane_detection_launch = 'lane_detection.launch.py'
     mask_detection_package = 'mask_pkg'
     mask_detection_launch = 'mask_detection.launch.py'
-    servo_package = 'ucsd_robocar_actuator2_pkg'
-    servo_launch_file = 'adafruit_servo.launch.py'
 
 
     ld = LaunchDescription()
@@ -51,17 +49,7 @@ def generate_launch_description():
         )
 	)
 
-    servo_launch = IncludeLaunchDescription(
-        PythonLaunchDescriptionSource(
-            os.path.join(
-                get_package_share_directory(servo_package),
-                'launch',
-                servo_launch_file)
-        )
-    )
-
     ld.add_action(components_launch)
     # ld.add_action(cam_nav_launch)
     ld.add_action(mask_launch)
-    ld.add_action(servo_launch)
     return ld
