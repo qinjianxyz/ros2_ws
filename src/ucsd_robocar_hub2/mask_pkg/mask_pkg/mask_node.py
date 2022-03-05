@@ -51,9 +51,12 @@ class MaskDetection(Node):
                 self.mask_publisher.publish(self.mask_detected)
 
 
-if __name__ == '__main__':
+def main():
     Mask_detector = MaskDetection()
     rate = rclpy.Rate(15)
     while not rclpy.is_shutdown():
         rclpy.spin()
         rate.sleep()
+
+if __name__ == '__main__':
+    main()
