@@ -30,7 +30,9 @@ class OBJ_DETECTION():
         
         if pred[0] is not None and len(pred):
             for p in pred[0]:
+                print(f"p: {p}")
                 score = np.round(p[4].cpu().detach().numpy(),2)
+                print(f"p5: {p[5]}")
                 label = self.classes[int(p[5])]
                 xmin = int(p[0] * main_img.shape[1] /self.input_width)
                 ymin = int(p[1] * main_img.shape[0] /new_height)

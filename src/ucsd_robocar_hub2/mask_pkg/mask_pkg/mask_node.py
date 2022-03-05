@@ -15,7 +15,7 @@ CAMERA_TOPIC_NAME = '/camera/color/image_raw'
 MASK_DETECTION_TOPIC_NAME = '/mask_detection'
 
 # types of objects that can be detected
-Object_classes = ['with_mask', 'without_mask']
+Object_classes = ['with_mask', 'without_mask', '3', '4']
 Object_detector = OBJ_DETECTION('weights/best.pt', Object_classes)
 
 
