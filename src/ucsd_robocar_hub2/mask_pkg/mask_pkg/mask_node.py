@@ -32,6 +32,7 @@ class MaskDetection(Node):
         SERVO_TOPIC_NAME, 10)
         self.bridge = CvBridge()
         self.mask_detected = Int32()
+        self.mask_degree = Float32()
 
     def detect_mask(self, data):
         frame = self.bridge.imgmsg_to_cv2(data)  # camera feed
@@ -51,7 +52,8 @@ class MaskDetection(Node):
             # if a stop sign is detected send out a 1 else send out 0
             if label == 'without_mask' and score > 0.9:
                 self.mask_detected.data = 1
-                self.servo_publisher.publish(Float32(100.0))
+                self.mask_degree.data = 100.0
+                self.servo_publisher.publish(self.mask_degree)
                 self.mask_publisher.publish(self.mask_detected)
             else:
                 self.mask_detected.data = 0
@@ -61,7 +63,6 @@ class MaskDetection(Node):
 def main(args=None):
     rclpy.init(args=args)
     mask_publisher = MaskDetection()
-    rate = mask_publisher.create_rate(0.5)
     try:
         rclpy.spin(mask_publisher)
         mask_publisher.destroy_node()
