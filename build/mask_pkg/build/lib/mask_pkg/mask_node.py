@@ -10,7 +10,7 @@ from sensor_msgs.msg import Image
 from std_msgs.msg import Int32
 
 # Give names for nodes and topics for ROS
-MASK_NODE_NAME = 'mask_node'
+NODE_NAME = 'mask_node'
 CAMERA_TOPIC_NAME = '/camera/color/image_raw'
 MASK_DETECTION_TOPIC_NAME = '/mask_detection'
 
@@ -23,11 +23,11 @@ class MaskDetection(Node):
 
     def __init__(self):
         # initialize the node
-        self.init_node = rclpy.init_node(MASK_NODE_NAME, anonymous=False)
-        self.camera_subscriber = rclpy.Subscriber(
-            CAMERA_TOPIC_NAME, Image, self.detect_stop)
-        self.mask_publisher = rclpy.Publisher(
-            MASK_DETECTION_TOPIC_NAME, Int32, queue_size=1)
+        super().__init__(NODE_NAME)
+        self.camera_subscriber = self.create_subscription(Image,
+        CAMERA_TOPIC_NAME, self.detect_mask, 10)
+        self.mask_publisher = self.create_publisher(Int32,
+        MASK_DETECTION_TOPIC_NAME, 1)
         self.bridge = CvBridge()
         self.mask_detected = Int32()
 
