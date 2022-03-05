@@ -29,6 +29,7 @@ def generate_launch_description():
             )
         )
 
+    '''
     cam_nav_launch = IncludeLaunchDescription(
             PythonLaunchDescriptionSource(
                 os.path.join(
@@ -37,7 +38,8 @@ def generate_launch_description():
                     lane_detection_launch)
             )
         )
-
+    '''
+    
     mask_launch = IncludeLaunchDescription(
 	    PythonLaunchDescriptionSource(
 		os.path.join(
