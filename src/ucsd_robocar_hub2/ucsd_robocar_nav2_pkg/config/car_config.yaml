@@ -11,6 +11,7 @@ artemis: 0
 ublox: 0
 vesc: 0
 adafruit: 1
+adafruit_servo: 1
 esp32: 0
 stm32: 0
 bldc_sensor: 0
