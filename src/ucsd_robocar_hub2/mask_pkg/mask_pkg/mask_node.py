@@ -39,6 +39,9 @@ class MaskDetection(Node):
         # detection process
         objs = Object_detector.detect(frame)  # detect the object
 
+        if objs is None:
+            print(f"Nothing detected")
+
         # plotting
         for obj in objs:
             label = obj['label']
