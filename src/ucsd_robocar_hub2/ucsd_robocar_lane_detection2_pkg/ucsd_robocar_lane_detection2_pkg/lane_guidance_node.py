@@ -15,8 +15,7 @@ class PathPlanner(Node):
     def __init__(self):
         super().__init__(NODE_NAME)
         self.twist_publisher = self.create_publisher(Twist, ACTUATOR_TOPIC_NAME, 10)
-        self.servo_publisher = self.create_publisher(Float32,
-            SERVO_TOPIC_NAME, 10)
+        # self.servo_publisher = self.create_publisher(Float32, SERVO_TOPIC_NAME, 10)
         self.twist_cmd = Twist()
         self.mask_detected = 0
         self.mask_detection_subscriber = self.create_subscription(Float32,
@@ -59,10 +58,6 @@ class PathPlanner(Node):
             # mask_detection
             if self.mask_detected == 1:
                 throttle_float = self.zero_throttle
-                self.servo_publisher.publish(10)
-                time.sleep(2)
-                self.servo_publisher.publish(0)
-                time.sleep(2)
 
             if error_x <= self.error_threshold:
                 throttle_float = float(self.no_error_throttle)

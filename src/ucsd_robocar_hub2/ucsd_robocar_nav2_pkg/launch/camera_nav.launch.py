@@ -39,17 +39,17 @@ def generate_launch_description():
             )
         )
     '''
-    
+
     mask_launch = IncludeLaunchDescription(
-	    PythonLaunchDescriptionSource(
+        PythonLaunchDescriptionSource(
 		os.path.join(
-		    get_package_share_directory(mask_detection_package),
-		    'launch',
-		    mask_detection_launch)
-	    )
+            get_package_share_directory(mask_detection_package),
+            'launch',
+            mask_detection_launch)
+        )
 	)
 
     ld.add_action(components_launch)
-    ld.add_action(cam_nav_launch)
+    # ld.add_action(cam_nav_launch)
     ld.add_action(mask_launch)
     return ld

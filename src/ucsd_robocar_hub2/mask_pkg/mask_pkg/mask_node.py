@@ -7,12 +7,13 @@ from rclpy.node import Node
 from cv_bridge import CvBridge
 from elements.yolo import OBJ_DETECTION
 from sensor_msgs.msg import Image
-from std_msgs.msg import Int32
+from std_msgs.msg import Int32, Float32
 
 # Give names for nodes and topics for ROS
 NODE_NAME = 'mask_node'
 CAMERA_TOPIC_NAME = '/camera/color/image_raw'
 MASK_DETECTION_TOPIC_NAME = '/mask_detection'
+SERVO_TOPIC_NAME = '/servo'
 
 # types of objects that can be detected
 Object_classes = ['temp', 'with_mask', 'without_mask']
@@ -26,8 +27,9 @@ class MaskDetection(Node):
         super().__init__(NODE_NAME)
         self.camera_subscriber = self.create_subscription(Image,
         CAMERA_TOPIC_NAME, self.detect_mask, 10)
-        self.mask_publisher = self.create_publisher(Int32,
-        MASK_DETECTION_TOPIC_NAME, 1)
+        self.mask_publisher = self.create_publisher(Int32, MASK_DETECTION_TOPIC_NAME, 1)
+        self.servo_publisher = self.create_publisher(Float32,
+        SERVO_TOPIC_NAME, 10)
         self.bridge = CvBridge()
         self.mask_detected = Int32()
 
@@ -44,8 +46,9 @@ class MaskDetection(Node):
             self.get_logger().info(f"Label: {label}, Score: {score}")
             print(f"Label: {label}, Score: {score}")
             # if a stop sign is detected send out a 1 else send out 0
-            if label == 'mask_off' and score > 0.1:
+            if label == 'mask_off' and score > 0.6:
                 self.mask_detected.data = 1
+                self.servo_publisher.publish(20)
                 self.mask_publisher.publish(self.mask_detected)
             else:
                 self.mask_detected.data = 0
