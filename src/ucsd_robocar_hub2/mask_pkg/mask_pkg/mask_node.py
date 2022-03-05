@@ -51,12 +51,21 @@ class MaskDetection(Node):
                 self.mask_publisher.publish(self.mask_detected)
 
 
-def main():
-    Mask_detector = MaskDetection()
-    rate = rclpy.Rate(15)
-    while not rclpy.is_shutdown():
-        rclpy.spin()
-        rate.sleep()
+def main(args=None):
+    rclpy.init(args=args)
+    mask_publisher = MaskDetection()
+    try:
+        rclpy.spin(mask_publisher)
+        mask_publisher.destroy_node()
+        rclpy.shutdown()
+    except KeyboardInterrupt:
+        mask_publisher.get_logger().info(
+            f'Shutting down {NODE_NAME}...')
+        time.sleep(1)
+        mask_publisher.destroy_node()
+        rclpy.shutdown()
+        mask_publisher.get_logger().info(
+        f'{NODE_NAME} shut down successfully.')
 
 if __name__ == '__main__':
     main()
