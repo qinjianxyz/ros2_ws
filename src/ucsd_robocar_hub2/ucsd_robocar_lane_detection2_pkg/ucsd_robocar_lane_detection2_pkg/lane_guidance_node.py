@@ -31,7 +31,7 @@ class PathPlanner(Node):
                 ('no_error_throttle', 1),
                 ('error_throttle', 1),
                 ('error_threshold', 1),
-                ('zero_throttle',1)
+                ('zero_throttle', 1)
             ])
         self.steering_sensitivity = self.get_parameter('steering_sensitivity').value
         self.no_error_throttle = self.get_parameter('no_error_throttle').value
@@ -57,7 +57,9 @@ class PathPlanner(Node):
 
             # mask_detection
             if self.mask_detected == 1:
-                throttle_float = self.zero_throttle
+                throttle_float = float(self.zero_throttle)
+            else:
+                throttle_float = float(self.no_error_throttle)
 
             if error_x <= self.error_threshold:
                 throttle_float = float(self.no_error_throttle)
