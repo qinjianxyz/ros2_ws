@@ -16,9 +16,9 @@ class PathPlanner(Node):
         super().__init__(NODE_NAME)
         self.twist_publisher = self.create_publisher(Twist, ACTUATOR_TOPIC_NAME, 10)
         self.twist_cmd = Twist()
-        self.mask_detected = 0
-        self.mask_detection_subscriber = self.create_subscription(Float32,
-        MASK_DETECTION_TOPIC_NAME, self.mask_detection_callback, 10)
+        # self.mask_detected = 0
+        # self.mask_detection_subscriber = self.create_subscription(Float32,
+        # MASK_DETECTION_TOPIC_NAME, self.mask_detection_callback, 10)
         self.centroid_subscriber = self.create_subscription(Float32,
             CENTROID_TOPIC_NAME, self.controller, 10)
 
