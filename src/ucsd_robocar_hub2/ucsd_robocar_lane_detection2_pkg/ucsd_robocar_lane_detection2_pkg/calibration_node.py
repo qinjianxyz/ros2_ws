@@ -423,11 +423,12 @@ class Calibration(Node):
             pass
 
         # plotting results
+        '''
         cv2.imshow(IMG_WINDOW_NAME, img)
         cv2.imshow(MASK_WINDOW_NAME, mask)
         cv2.imshow(BW_WINDOW_NAME, blackAndWhiteImage)
         cv2.waitKey(1)
-
+        '''
 
         # Write files to yaml file for storage
         # color_config_path = str(os.path.dirname(__file__) + '/../config/ros_racer_calibration.yaml')
