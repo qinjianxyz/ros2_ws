@@ -205,13 +205,14 @@ class LaneDetection(Node):
 
         self.debug_cv = self.get_parameter('debug_cv').value # ability to update debug in real-time
         # plotting results
+        '''
         if self.debug_cv:
             cv2.imshow('img', img)
             cv2.imshow('blackAndWhiteImage', blackAndWhiteImage)
             cv2.waitKey(1)
         else:
             cv2.destroyAllWindows()
-
+        '''
 
 def main(args=None):
     rclpy.init(args=args)
