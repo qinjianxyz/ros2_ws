@@ -61,11 +61,12 @@ class PathPlanner(Node):
             else:
                 throttle_float = float(self.no_error_throttle)
             
-
+            '''
             if error_x <= self.error_threshold:
                 throttle_float = float(self.no_error_throttle)
             else:
                 throttle_float = float(self.error_throttle)
+            '''
             steering_float = float(kp * error_x)
             if steering_float < -1.0:
                 steering_float = -1.0
