@@ -33,7 +33,7 @@ calibration_node:
 lane_guidance_node: 
   ros__parameters: 
     steering_sensitivity : -0.6 
-    zero_throttle  : 0.00399999993 
+    zero_throttle  : 0.04399999993 
     zero_error_throttle : 0.043999999993 
     error_throttle : 0.04399999993 
     error_threshold : 1.0 
