@@ -41,14 +41,13 @@ class MaskDetection(Node):
         objs = Object_detector.detect(frame)  # detect the object
 
         if objs is None:
-            print(f"Nothing detected")
+            self.get_logger().info("Nothing detected")
 
         # plotting
         for obj in objs:
             label = obj['label']
             score = obj['score']
             self.get_logger().info(f"Label: {label}, Score: {score}")
-            print(f"Label: {label}, Score: {score}")
             # if a stop sign is detected send out a 1 else send out 0
             if label == 'without_mask' and score > 0.9:
                 self.mask_detected.data = 1
