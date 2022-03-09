@@ -27,13 +27,13 @@ class PathPlanner(Node):
             namespace='',
             parameters=[
                 ('steering_sensitivity', 1),
-                ('no_error_throttle', 1),
-                ('error_throttle', 1),
+                ('zero_error_throttle', 0.19),
+                ('error_throttle', 0.19),
                 ('error_threshold', 1),
-                ('zero_throttle', 1)
+                ('zero_throttle', 0.1)
             ])
         self.steering_sensitivity = self.get_parameter('steering_sensitivity').value
-        self.no_error_throttle = self.get_parameter('no_error_throttle').value
+        self.no_error_throttle = self.get_parameter('zero_error_throttle').value
         self.error_throttle = self.get_parameter('error_throttle').value
         self.error_threshold = self.get_parameter('error_threshold').value
         self.zero_throttle = self.get_parameter('zero_throttle').value
