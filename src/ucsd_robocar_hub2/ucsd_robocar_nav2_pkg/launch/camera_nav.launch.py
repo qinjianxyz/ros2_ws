@@ -51,5 +51,5 @@ def generate_launch_description():
 
     ld.add_action(components_launch)
     ld.add_action(cam_nav_launch)
-    # ld.add_action(mask_launch)
+    ld.add_action(mask_launch)
     return ld
