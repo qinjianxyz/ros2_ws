@@ -21,7 +21,7 @@ intel455: ['ucsd_robocar_sensor2_pkg', 'camera_intel455.launch.py', 'camera', '/
 
 # Actuators
 # vesc: ['ucsd_robocar_actuator2_pkg', 'vesc_twist.launch.py','motor', '/cmd_vel']
-# adafruit: ['ucsd_robocar_actuator2_pkg', 'adafruit_twist.launch.py','motor', '/cmd_vel']
+adafruit: ['ucsd_robocar_actuator2_pkg', 'adafruit_twist.launch.py','motor', '/cmd_vel']
 adafruit_servo: ['ucsd_robocar_actuator2_pkg', 'adafruit_servo.launch.py', 'motor', '/servo']
 #vesc_steering: ['ucsd_robocar_actuator2_pkg', 'vesc_steering.launch.py','motor', '/steering']
 #vesc_throttle: ['ucsd_robocar_actuator2_pkg', 'vesc_throttle.launch.py','motor', '/throttle']
