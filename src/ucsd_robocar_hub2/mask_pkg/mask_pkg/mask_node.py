@@ -51,7 +51,7 @@ class MaskDetection(Node):
             score = obj['score']
             self.get_logger().info(f"Label: {label}, Score: {score}")
             # if a stop sign is detected send out a 1 else send out 0
-            if label == 'without_mask' and score > 0.6:
+            if label == 'without_mask' and score > 0.85:
                 self.mask_detected.data = 1
                 self.mask_degree.data = 0.0
             else:
