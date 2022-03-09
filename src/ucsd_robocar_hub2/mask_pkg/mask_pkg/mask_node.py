@@ -27,17 +27,12 @@ class MaskDetection(Node):
         self.camera_subscriber = self.create_subscription(Image,
         CAMERA_TOPIC_NAME, self.detect_mask, 10)
         self.mask_publisher = self.create_publisher(Int32, MASK_DETECTION_TOPIC_NAME, 1)
-        self.timer_period = 2
-        self.timer = self.create_timer(self.timer_period, self.publish_data)
         self.servo_publisher = self.create_publisher(Float32,
         SERVO_TOPIC_NAME, 10)
         self.bridge = CvBridge()
         self.mask_detected = Int32()
         self.mask_degree = Float32()
-
-    def publish_data(self):
-        self.servo_publisher.publish(self.mask_degree)
-        self.mask_publisher.publish(self.mask_detected)
+        
 
 
     def detect_mask(self, data):
@@ -62,6 +57,8 @@ class MaskDetection(Node):
             else:
                 self.mask_detected.data = 0
                 self.mask_degree.data = 90.0
+            self.mask_publisher.publish(self.mask_detected)
+            self.servo_publisher.publish(self.mask_degree)
 
 
 def main(args=None):
