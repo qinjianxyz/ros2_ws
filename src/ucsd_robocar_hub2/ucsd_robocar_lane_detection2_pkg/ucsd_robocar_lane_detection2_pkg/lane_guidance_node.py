@@ -56,7 +56,8 @@ class PathPlanner(Node):
 
             # mask_detection
             
-            if self.mask_detected == 1:
+            if self.mask_detected == int(1):
+                self.get_logger().info("Setting Zero Throttle")
                 throttle_float = float(self.zero_throttle)
             else:
                 throttle_float = float(self.no_error_throttle)
