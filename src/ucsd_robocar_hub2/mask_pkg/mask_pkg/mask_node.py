@@ -56,7 +56,7 @@ class MaskDetection(Node):
                 self.mask_degree.data = 0.0
             else:
                 self.mask_detected.data = 0
-                self.mask_degree.data = 90.0
+                self.mask_degree.data = -90.0
             self.mask_publisher.publish(self.mask_detected)
             self.servo_publisher.publish(self.mask_degree)
 
