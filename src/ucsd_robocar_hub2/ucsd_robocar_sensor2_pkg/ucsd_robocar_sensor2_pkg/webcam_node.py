@@ -15,7 +15,7 @@ class ImagePublisher(Node):
         self.camera_publisher
         self.bridge = CvBridge()
         # publish a message every 0.1 seconds
-        self.frequency = 10
+        self.frequency = 4 # 10
         self.timer_period = 1 / self.frequency
         self.timer = self.create_timer(self.timer_period, self.live_cam_feed)  # Create the timer
         self.cap = cv2.VideoCapture(0)  # Create a VideoCapture object
@@ -23,7 +23,6 @@ class ImagePublisher(Node):
 
     def live_cam_feed(self):
         ret, frame = self.cap.read()
-          
         if ret == True:
             self.camera_publisher.publish(self.bridge.cv2_to_imgmsg(frame))
             # Display the message on the console

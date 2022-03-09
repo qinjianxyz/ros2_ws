@@ -19,7 +19,6 @@ SERVO_TOPIC_NAME = '/servo'
 Object_classes = ['temp', 'with_mask', 'without_mask']
 Object_detector = OBJ_DETECTION('weights/best.pt', Object_classes)
 
-
 class MaskDetection(Node):
 
     def __init__(self):
@@ -35,7 +34,6 @@ class MaskDetection(Node):
         self.bridge = CvBridge()
         self.mask_detected = Int32()
         self.mask_degree = Float32()
-        self.counter = 0 # bad
 
     def publish_data(self):
         self.servo_publisher.publish(self.mask_degree)
@@ -43,12 +41,6 @@ class MaskDetection(Node):
 
 
     def detect_mask(self, data):
-
-        self.counter += 1
-        if self.counter != 3:
-            return
-        else:
-            self.counter = 0
 
         frame = self.bridge.imgmsg_to_cv2(data)  # camera feed
 
